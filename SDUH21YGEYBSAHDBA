@@ -1509,8 +1509,6 @@ end)
 
 newcmd("potatokick",{},function()
 game.Players:Chat("gear me 00000000000000000000000000000000000000000000000000004842207161")
-task.wait()
-game.Players:Chat("ungear me")
 game.Players:Chat("respawn                                                                                                                     others")
 game.Players:Chat("freeze                                                                                                                     others")
 game.Players:Chat("size                                                                                                                     others nan")
@@ -1524,10 +1522,11 @@ game.Players:Chat("gear others 0000000000000000000000000000000000000000000000000
 game.Players:Chat("gear others 000000000000000000000000000000000000000000000000000025741198")
 game.Players:Chat("gear others 000000000000000000000000000000000000000000000000000025741198")
 game.Players:Chat("music                                                                                                                      25320997")
-task.wait(.25)
+wait(.5)
 for i = 1,5 do
 game.Players:Chat("pm/ others \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n You have been potatokicked from this server. \n\n\npotato kick has returned!\n\n\nunleaked method.\n\n\nNo server is safe! \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 game.Players:Chat("pm/ others \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n You have been potatokicked from this server. \n\n\npotato kick has returned!\n\n\nunleaked method.\n\n\nNo server is safe! \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+wait(0.05)
 end
 wait(.45)
 for i = 1,128 do
