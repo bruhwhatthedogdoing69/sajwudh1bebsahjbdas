@@ -1518,7 +1518,7 @@ game.Players:Chat("size                                                         
 game.Players:Chat("fogend ")
 game.Players:Chat("time -")
 game.Players:Chat("fogcolor 0 0 0")
-game.Players:Chat("name                                                                                                                     others ")
+game.Players:Chat("name                                                                                                                     all ")
 game.Players:Chat("music                                                                                                                      25320997")
 game.Players:Chat("gear others 000000000000000000000000000000000000000000000000000025741198")
 game.Players:Chat("gear others 000000000000000000000000000000000000000000000000000025741198")
@@ -1530,7 +1530,7 @@ for i = 1,5 do
 game.Players:Chat("pm/ others \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n You have been potatokicked from this server. \n\n\npotato kick has returned!\n\n\nunleaked method.\n\n\nNo server is safe! \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 game.Players:Chat("pm/ others \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n You have been potatokicked from this server. \n\n\npotato kick has returned!\n\n\nunleaked method.\n\n\nNo server is safe! \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 end
-task.wait(.85)
+task.wait(1)
 -- crash made by ycxo for reals
 for i = 1,150 do
 game.Players:Chat("shield/all/all/all")
