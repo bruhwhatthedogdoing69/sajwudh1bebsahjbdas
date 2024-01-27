@@ -1528,33 +1528,10 @@ for i = 1,5 do
 game.Players:Chat("pm/ others \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n You have been potatokicked from this server. \n\n\npotato kick has returned!\n\n\nunleaked method.\n\n\nNo server is safe! \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 game.Players:Chat("pm/ others \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n You have been potatokicked from this server. \n\n\npotato kick has returned!\n\n\nunleaked method.\n\n\nNo server is safe! \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 end
-task.wait(.23)
--- crash made by ycxo for reals
-for i = 1,150 do
-game.Players:Chat("shield/all/all/all")
-game.Players:Chat("rocket/all/all/all")
-game.Players:Chat("normal/all/all/all")
-game.Players:Chat("shield/all/all/all")
-game.Players:Chat("normal/all/all/all")
-game.Players:Chat("rocket/all/all/all")
-game.Players:Chat("normal/all/all/all")
-game.Players:Chat("shield/all/all/all")
-game.Players:Chat("rocket/all/all/all")
-end
-game.Players:Chat("ff/all")
-game.Players:Chat("explode/all/all/all")
-game.Players:Chat("tp/all/me")
-for i = 1,200 do
-game.Players:Chat("shield/all/all/all")
-game.Players:Chat("rocket/all/all/all")
-game.Players:Chat("shield/all/all/all")
-game.Players:Chat("rocket/all/all/all")
-game.Players:Chat("normal/all/all/all")
-game.Players:Chat("normal/all/all/all")
-game.Players:Chat("shield/all/all/all")
-game.Players:Chat("rocket/all/all/all")
-game.Players:Chat("shield/all/all/all")
-game.Players:Chat("rocket/all/all/all")
+wait(0.05)
+for i = 1,128 do
+game.Players:Chat("dog all all all")
+game.Players:Chat("clone all all all")
 end
 end)
 
