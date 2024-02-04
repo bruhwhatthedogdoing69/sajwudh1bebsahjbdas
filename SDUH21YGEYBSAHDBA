@@ -2003,6 +2003,24 @@ newcmd("dekryptionite",{"player"},function(args)
 end
 end)
 
+newcmd("dek",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+        game.Players:Chat("char "..v.Name.." 0000000000000000000000000000120983992")  
+        task.wait(.23) 
+        game.Players:Chat("tp "..v.Name.." me")  
+end
+end)
+
+newcmd("clyde",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+        game.Players:Chat("char "..v.Name.." 00000000000000000000000000004725549245")  
+        task.wait(.23) 
+        game.Players:Chat("tp "..v.Name.." me")  
+end
+end)
+
 newcmd("ray",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
