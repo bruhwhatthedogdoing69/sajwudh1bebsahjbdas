@@ -2974,7 +2974,7 @@ newcmd("wl",{"player"},function(args)
     for i,v in pairs(Player) do
         if v ~= game.Players.LocalPlayer and not table.find(wl,v.Name) then
             table.insert(wl,v.Name)
-            game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nYou have been whitelisted "..v.Name.." \nThe prefix is - (hyphen) \n Say -wlcmds to get started!\n This script was made by ripcxo (cxo)\ndm ycxo for help.")
+            game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nYou have been whitelisted "..v.Name.." \nThe prefix is - (hyphen) \n Say -wlcmds to get started!\n This script was made by ripcxo (cxo)\ndm whycxo (without the wh) for help.")
         end
     end
 end)
