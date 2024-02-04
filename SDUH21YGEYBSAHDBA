@@ -3357,6 +3357,7 @@ game.Players.ChildAdded:Connect(function(player)
 wait(1)
 game.Players:Chat("h \n\n\n\n\n "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
 end)
+end)
 
     newcmd("age",{"player"},function(args)
         local Player = GetPlayers(args[1])
