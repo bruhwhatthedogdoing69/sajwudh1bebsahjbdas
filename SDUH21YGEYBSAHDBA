@@ -162,12 +162,12 @@ newcmd("lock",{"player"},function(args)
         if not v then error("Break") end
         pcall(function()
         if not v.Character:FindFirstChildOfClass("Model") then
-            game.Players:Chat("name "..v.Name.. [[ 🤓 YOU ARE LOCKED (LOL) 🤓 ]] )
+            game.Players:Chat("name "..v.Name.. [[ ?? YOU ARE LOCKED (LOL) ?? ]] )
         end
         if v:DistanceFromCharacter(v.Character.Torso.Position)>1 then
         game.Players:Chat("freeze "..v.Name)
         task.wait(.23)
-        game.Players:Chat("name "..v.Name.." 🤓 YOU ARE LOCKED (LOL) 🤓")
+        game.Players:Chat("name "..v.Name.." ?? YOU ARE LOCKED (LOL) ??")
         task.wait(.23)
         game.Players:Chat("thaw "..v.Name)
         task.wait(.5)
@@ -190,12 +190,12 @@ newcmd("l",{"player"},function(args)
         if not v then error("Break") end
         pcall(function()
         if not v.Character:FindFirstChildOfClass("Model") then
-            game.Players:Chat("name "..v.Name.. [[ 🤓 YOU ARE LOCKED (LOL) 🤓 ]] )
+            game.Players:Chat("name "..v.Name.. [[ ?? YOU ARE LOCKED (LOL) ?? ]] )
         end
         if v:DistanceFromCharacter(v.Character.Torso.Position)>1 then
         game.Players:Chat("freeze "..v.Name)
         task.wait(.23)
-        game.Players:Chat("name "..v.Name.." 🤓 YOU ARE LOCKED (LOL) 🤓")
+        game.Players:Chat("name "..v.Name.." ?? YOU ARE LOCKED (LOL) ??")
         task.wait(.23)
         game.Players:Chat("thaw "..v.Name)
         task.wait(.5)
@@ -1429,6 +1429,7 @@ game.Players:Chat("respawn me")
 end)
 
 newcmd("trapspawn",{},function()
+game.Players:Chat("size me .3")
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-58.98, 36.80, -14.36)
 moveObject(game:GetService("Workspace").Terrain["_Game"].Workspace["Basic House"].SmoothBlockModel38,CFrame.new(-58.98, 36.80, -14.36))
 moveObject(game:GetService("Workspace").Terrain["_Game"].Workspace["Basic House"].SmoothBlockModel38,CFrame.new(-58.98, 36.80, -14.36))
@@ -3183,7 +3184,7 @@ game.Players:Chat("gear me 0000000000000000000000000000000108158379")
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-70.22, 13.60, 7.14)
 repeat wait() until game.Players.LocalPlayer.Backpack:FindFirstChild("IvoryPeriastron")
 game.Players.LocalPlayer.Backpack:FindFirstChild("IvoryPeriastron").Parent = game.Players.LocalPlayer.Character
-task.wait(.005)
+task.wait(.23)
 game.Players.LocalPlayer.Character.IvoryPeriastron.Remote:FireServer(Enum.KeyCode.E)
 task.wait(.005)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-79.07, 5.59, 7.41)
