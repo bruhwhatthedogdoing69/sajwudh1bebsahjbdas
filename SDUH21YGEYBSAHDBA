@@ -1967,6 +1967,24 @@ newcmd("rachel",{"player"},function(args)
 end
 end)
 
+newcmd("martin",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+        game.Players:Chat("char "..v.Name.." 0000000000000000000000000000308662004")  
+        task.wait(.23) 
+        game.Players:Chat("tp "..v.Name.." me")  
+end
+end)
+
+newcmd("slender",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+        game.Players:Chat("char "..v.Name.." 000000000000000000000000000056405675")  
+        task.wait(.23) 
+        game.Players:Chat("tp "..v.Name.." me")  
+end
+end)
+
 newcmd("tech",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
@@ -3592,8 +3610,25 @@ newcmd("tools",{"player"},function(args)
         game.Players:Chat("gear "..v.Name.." 0000000000000000000000000000000000000000031839260")
         game.Players:Chat("gear "..v.Name.." 0000000000000000000000000000000000000000031314849")
         game.Players:Chat("gear "..v.Name.." 00000000000000000000000000000000000000000071037101")
+		game.Players:Chat("gear "..v.Name.." 00000000000000000000000000000000000000000047637")
+		game.Players:Chat("gear "..v.Name.." 000000000000000000000000000000000000000000123234510")
+		game.Players:Chat("gear "..v.Name.." 000000000000000000000000000000000000000000164207580")
+		game.Players:Chat("gear "..v.Name.." 000000000000000000000000000000000000000000215355157")
+		game.Players:Chat("gear "..v.Name.." 000000000000000000000000000000000000000000537374622")
+		game.Players:Chat("gear "..v.Name.." 00000000000000000000000000000000000000000048596305")
+		game.Players:Chat("gear "..v.Name.." 00000000000000000000000000000000000000000079736563")
+		game.Players:Chat("gear "..v.Name.." 00000000000000000000000000000000000000000088146497")
+		game.Players:Chat("gear "..v.Name.." 000000000000000000000000000000000000000000187840979")
+		
     end
 end)
+
+newcmd("cft",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+	game.Players:Chat("gear "..v.Name.." 00000000000000000000000000000000000000000079736563")
+	end
+	end)
 
 newcmd("die",{"player"},function(args)
     local Player = GetPlayers(args[1])
