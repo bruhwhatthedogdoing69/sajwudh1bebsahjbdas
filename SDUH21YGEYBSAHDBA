@@ -1433,6 +1433,7 @@ moveObject(game:GetService("Workspace").Terrain["_Game"].Workspace["Basic House"
 moveObject(game:GetService("Workspace").Terrain["_Game"].Workspace["Basic House"].SmoothBlockModel38,CFrame.new(-58.98, 36.80, -14.36))
 wait(.39)
 game.Players:Chat("unskydive me")
+wait(.39)
 game.Players:Chat("unpaint me me me")
 game.Players:Chat("unpaint me me me")
 game.Players:Chat("unpaint me me me")
