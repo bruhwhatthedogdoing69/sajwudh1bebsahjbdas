@@ -167,6 +167,34 @@ newcmd("lock",{"player"},function(args)
         if v:DistanceFromCharacter(v.Character.Torso.Position)>1 then
         game.Players:Chat("freeze "..v.Name)
         task.wait(.23)
+        game.Players:Chat("name "..v.Name.." 🤓 YOU ARE LOCKED (LOL) 🤓")
+        task.wait(.23)
+        game.Players:Chat("thaw "..v.Name)
+        task.wait(.5)
+        game.Players:Chat("size "..v.Name.." .3")
+        game.Players:Chat("size "..v.Name.." .3")
+        game.Players:Chat("size "..v.Name.." .3")
+        game.Players:Chat("speed "..v.Name.." 0")
+        game.Players:Chat("setgrav "..v.Name.." 3500")
+           end
+        end)
+    end
+    until not Loops.lock
+
+end)
+
+newcmd("l",{"player"},function(args)
+    Loops.lock = true
+    repeat wait()
+    for i,v in pairs(GetPlayers(args[1])) do
+        if not v then error("Break") end
+        pcall(function()
+        if not v.Character:FindFirstChildOfClass("Model") then
+            game.Players:Chat("name "..v.Name.. [[ 🤓 YOU ARE LOCKED (LOL) 🤓 ]] )
+        end
+        if v:DistanceFromCharacter(v.Character.Torso.Position)>1 then
+        game.Players:Chat("freeze "..v.Name)
+        task.wait(.23)
         game.Players:Chat("name "..v.Name.." ?? YOU ARE LOCKED (LOL) ??")
         task.wait(.23)
         game.Players:Chat("thaw "..v.Name)
