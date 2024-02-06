@@ -1968,6 +1968,24 @@ newcmd("rachel",{"player"},function(args)
 end
 end)
 
+newcmd("sky",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+        game.Players:Chat("char "..v.Name.." 0000000000000000000000000000137072437")  
+        task.wait(.23) 
+        game.Players:Chat("tp "..v.Name.." me")  
+end
+end)
+
+newcmd("svko",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+        game.Players:Chat("char "..v.Name.." 00000000000000000000000000004038884688")  
+        task.wait(.23) 
+        game.Players:Chat("tp "..v.Name.." me")  
+end
+end)
+
 newcmd("martin",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
