@@ -3189,8 +3189,9 @@ newcmd("ell",{},function()
 game.Players:Chat("gear me 0000000000000000000000000000000108158379")
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-70.22, 13.60, 7.14)
 repeat wait() until game.Players.LocalPlayer.Backpack:FindFirstChild("IvoryPeriastron")
-game.Players.LocalPlayer.Backpack:FindFirstChild("IvoryPeriastron").Parent = game.Players.LocalPlayer.Character
 task.wait(.23)
+game.Players.LocalPlayer.Backpack:FindFirstChild("IvoryPeriastron").Parent = game.Players.LocalPlayer.Character
+task.wait(.39)
 game.Players.LocalPlayer.Character.IvoryPeriastron.Remote:FireServer(Enum.KeyCode.E)
 task.wait(.005)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-79.07, 5.59, 7.41)
