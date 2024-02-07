@@ -157,7 +157,7 @@ newcmd("bribe",{"player"},function(args)
 	game.Players:Chat("unhat "..v.Name)
 	wait(0.005)
 game.Players:Chat("hat "..v.Name.." 20573098")
-game.Players:Chat("hat "..v.Name.." 20573078")
+game.Players:Chat("hat "..v.Name.." 20010032")
     end
 end)
 
