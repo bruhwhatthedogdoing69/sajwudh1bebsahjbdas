@@ -3865,13 +3865,20 @@ end)
 newcmd("kick2",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-        game.Players:Chat("respawn "..v.Name)
+	game.Players:Chat("unfly "..v.Name)
+	game.Players:Chat("unsize "..v.Name)
+	game.Players:Chat("unskydive "..v.Name)
+	game.Players:Chat("freeze "..v.Name)
         wait(.25)
+		game.Players:Chat("trip "..v.Name)
+		game.Players:Chat("stun "..v.Name)
+		game.Players:Chat("thaw "..v.Name)
         game.Players:Chat("jail/"..v.Name)
         game.Players:Chat("blind "..v.Name)
         game.Players:Chat("ff "..v.Name)
-        game.Players:Chat("-___")
-Loops.urkicked = true
+		game.Players:Chat("invis me")
+		task.wait(.23)
+Loops.rks = true
 repeat wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame *CFrame.new(0,0,2) * CFrame.Angles(0,math.rad(180),0)
 game.Players:Chat("rocket/me/"..v.Name.."/me/"..v.Name.."/me/"..v.Name)  
@@ -3882,17 +3889,8 @@ game.Players:Chat("rocket/me/"..v.Name.."/me/"..v.Name.."/me/"..v.Name)
 game.Players:Chat("rocket/me/"..v.Name.."/me/"..v.Name.."/me/"..v.Name) 
 game.Players:Chat("rocket/me/"..v.Name.."/me/"..v.Name.."/me/"..v.Name) 
 game.Players:Chat("rocket/me/"..v.Name.."/me/"..v.Name.."/me/"..v.Name)
-until not Loops.urkicked
+until not Loops.rks
 end
-end)
-
-newcmd("___",{},function()
-wait(7)
-Loops.urkicked = false
-Loops.tprn = true
-repeat wait()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame *CFrame.new(0,0,2) * CFrame.Angles(0,math.rad(180),0)
-until not Loops.tprn
 end)
 
 newcmd("kick",{"player"},function(args)
@@ -3921,6 +3919,7 @@ end)
 
 newcmd("skick",{},function()
 Loops.rk = false    
+Loops.rks = false  
 game.Players:Chat("unrocket/all")
 game.Players:Chat("unrocket/all")
 game.Players:Chat("unrocket/all")
