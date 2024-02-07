@@ -144,6 +144,13 @@ newcmd("dantigear",{"player"},function(args)
     end
 end)
 
+newcmd("thebribe",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+game.Players:Chat("hat "..v.Name.." 20573098")
+    end
+end)
+
 newcmd("ban",{"player"},function(args)
     for i,v in pairs(GetPlayers(args[1])) do
         table.insert(Banned,v.Name)
