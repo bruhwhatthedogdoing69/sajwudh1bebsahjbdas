@@ -3359,7 +3359,9 @@ newcmd("theme",{},function()
             newcmd("dcrash",{},function()
                 game.Players:Chat('respawn all')
                 game.Players:Chat('tp all me')
+				game.Players:Chat('h/ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________')
                 game.Players:Chat('fogend')
+				game.Players:Chat('h/ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________')
                 game.Players:Chat("fogcolor "..math.random(255).." "..math.random(255).." "..math.random(255))
 				game.Players:Chat('h/ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________')
                 game.Players:Chat("time -")
@@ -3371,23 +3373,6 @@ game.Players:Chat("dog all all all")
 game.Players:Chat("clone all all all")
 end
 end)
-                
-                game:GetService("Players").LocalPlayer.Chatted:Connect(function(Message)
-                if Message == "-silc" then
-                game.Players:Chat('respawn all')
-                game.Players:Chat('tp all me')
-                game.Players:Chat('disco')
-                game.Players:Chat('fogend')
-                game.Players:Chat("time -")
-                game.Players:Chat('h/ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________')
-                game.Players:Chat('music 000000000000000000000000006841685130')
-for i = 1,128 do
-    game.Players:Chat("dog all all all")
-    game.Players:Chat("clone all all all")
-                end
-                end
-                end)
-
 
                 newcmd("wlcrash",{},function()
                 for i = 1,128 do
