@@ -3361,13 +3361,14 @@ newcmd("theme",{},function()
                 game.Players:Chat('tp all me')
                 game.Players:Chat('fogend')
                 game.Players:Chat("fogcolor "..math.random(255).." "..math.random(255).." "..math.random(255))
+				game.Players:Chat('h/ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________')
                 game.Players:Chat("time -")
-                game.Players:Chat('h/ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________')
+				game.Players:Chat('h/ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________')
                 game.Players:Chat('music 000000000000000000000000006841685130')
                 wait(0.05)
 for i = 1,128 do
-game.Players:Chat("dog all all all "..math.random(999))
-game.Players:Chat("clone all all all "..math.random(999))
+game.Players:Chat("dog all all all")
+game.Players:Chat("clone all all all")
 end
 end)
                 
