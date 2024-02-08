@@ -1593,6 +1593,7 @@ end)
 newcmd("cube",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
+	game.Players:Chat("unpackage "..v.Name)
         game.Players:Chat("size "..v.Name.." .3")
         game.Players:Chat("size "..v.Name.." .3")
         game.Players:Chat("size "..v.Name.." .3")
@@ -3818,6 +3819,55 @@ newcmd("nerd",{"player"},function(args)
         game.Players:Chat("tp "..v.Name.." me")
         wait()
     end
+end)
+
+newcmd("rocket",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+	game.Players:Chat("rocket/"..v.Name)
+	end
+end)
+
+newcmd("shield",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+	game.Players:Chat("shield/"..v.Name)
+	end
+end)
+
+newcmd("jail",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+	game.Players:Chat("jail/"..v.Name)
+	end
+end)
+
+newcmd("sparkles",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+	game.Players:Chat("sparkles/"..v.Name)
+	end
+end)
+
+newcmd("unshield",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+	game.Players:Chat("unshield/"..v.Name)
+	end
+end)
+
+newcmd("unrocket",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+	game.Players:Chat("unrocket/"..v.Name)
+	end
+end)
+
+newcmd("unshield",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+	game.Players:Chat("unjail/"..v.Name)
+	end
 end)
 
 newcmd("lag",{"player"},function(args)
