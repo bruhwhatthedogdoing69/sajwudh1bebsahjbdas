@@ -3589,7 +3589,7 @@ newcmd("heaven", {}, function()
         end
         )
 
-newcmd("fixfiltertest", {}, function()
+newcmd("fixfilter", {}, function()
 game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\ng")
 game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\ng")
 game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\ng")
@@ -3665,27 +3665,6 @@ game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n              n")
 game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n              n")
 game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n              n")
 game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n              n")
-end)
-
-newcmd("fixfilter",{},function()
-local file = "The roblox filter is ass"
-local a = {}
-
-for letter in file:gmatch(".") do
-  if letter ~= "\r" and letter ~= "\n" then
-    table.insert(a, letter)
-  end
-end
-
-for b, c in ipairs(a) do
-    local d = "variable_" .. tostring(b)
-    _G[d] = c
-end
-for b, c in ipairs(a) do
-    local e = string.rep("  ", 2 * (b - 1))
-    game.Players:Chat("h Hola allá gente\n\n\n\n\n\n\n" .. e .. _G["variable_" .. tostring(b)])
-end
-end
 end)
 
 newcmd("pmlag",{"player"},function(args)
@@ -4581,3 +4560,4 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
+print("Hello World!")
