@@ -32,6 +32,7 @@ local commandlist = {}
 local Connections = {}
 local Loops = {}
 local Toolbans = {}
+local randomhat = {"16030226601", "15915558570", "16030189050", "15993280987", "15655243940", "15915454374", "15915462314", "20573098", "63241985", "14859292794"}
 local ServerLockedProtection = {}
 local wl = Settings["Default wl"]
 local Banned = Settings["Default Banned"]
@@ -179,12 +180,12 @@ newcmd("lock",{"player"},function(args)
         if not v then error("Break") end
         pcall(function()
         if not v.Character:FindFirstChildOfClass("Model") then
-            game.Players:Chat("name "..v.Name.. [[ ?? YOU ARE LOCKED (LOL) ?? ]] )
+            game.Players:Chat("name "..v.Name.. [[ 🤓 YOU ARE LOCKED (LOL) 🤓 ]] )
         end
         if v:DistanceFromCharacter(v.Character.Torso.Position)>1 then
         game.Players:Chat("freeze "..v.Name)
         task.wait(.23)
-        game.Players:Chat("name "..v.Name.." ?? YOU ARE LOCKED (LOL) ??")
+        game.Players:Chat("name "..v.Name.." 🤓 YOU ARE LOCKED (LOL) 🤓")
         task.wait(.23)
         game.Players:Chat("thaw "..v.Name)
         task.wait(.5)
@@ -207,12 +208,12 @@ newcmd("l",{"player"},function(args)
         if not v then error("Break") end
         pcall(function()
         if not v.Character:FindFirstChildOfClass("Model") then
-            game.Players:Chat("name "..v.Name.. [[ ?? YOU ARE LOCKED (LOL) ?? ]] )
+            game.Players:Chat("name "..v.Name.. [[ 🤓 YOU ARE LOCKED (LOL) 🤓 ]] )
         end
         if v:DistanceFromCharacter(v.Character.Torso.Position)>1 then
         game.Players:Chat("freeze "..v.Name)
         task.wait(.23)
-        game.Players:Chat("name "..v.Name.." ?? YOU ARE LOCKED (LOL) ??")
+        game.Players:Chat("name "..v.Name.." 🤓 YOU ARE LOCKED (LOL) 🤓")
         task.wait(.23)
         game.Players:Chat("thaw "..v.Name)
         task.wait(.5)
@@ -232,6 +233,7 @@ newcmd("unlock",{"player"},function(args)
     Loops.lock = false
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
+        wait(0.005)
         game.Players:Chat("respawn "..v.Name)
         task.wait(.5)
         game.Players:Chat("tp "..v.Name.." me")
@@ -252,14 +254,14 @@ newcmd("wlcmds",{},function()
     game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmovespawns - moves the spawnpoints\nfixregen - fixes the regen pad if it is located\ntemi *player* - encages the player\ngban *player* - gearbans the player\nwl / unwl *player* - allows you to whitelist / unwhitelist players\nmbc *player* - breaks a mobile players camera\ndrc - disables the right click for everyone\ngames *player* - gives a player games\nage *player* - fetches the age in days of a players roblox account\nheaven / darkness\ndie *player* - rest  in peace\nlag / dlag *player* - attempts to lag the players game\nclone *player* - attaches the player to a clone of themself")
 end)
 
-    newcmd("spiders",{},function()
-        task.wait(.5)
+newcmd("spiders",{},function()
+    task.wait(.5)
     for i = 1,100 do
-        game.Players:Chat("gear me 0000000000000000000000000000000000000116040789")
-        task.wait(.5)
-        game.Players:Chat("-usetools")
-        end
-        end)
+    game.Players:Chat("gear me 0000000000000000000000000000000000000116040789")
+    task.wait(.5)
+    game.Players:Chat("-usetools")
+    end
+end)
 
 newcmd("blackpink",{},function()
     -- Roblox ColorAPI, Thank you siyamicik and Kevin (bumanoid) for recovering/improving this
@@ -2227,27 +2229,6 @@ newcmd("fridge",{"player"},function(args)
 end
 end)
 
-newcmd("loud",{"amount"},function(args)
-    for i=1,tonumber(args[1])do
-game.Players:Chat("gear me 000000000000000000000000000000000000000000059848474")
-wait()
-end
-wait(0.25)
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-    v.Parent = game.Players.LocalPlayer.Character
-end
-wait(0.1)
-for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
-    if v:IsA("Tool") then
-        v.ClientInput:FireServer(Enum.KeyCode.E)
-        wait()
-        v:Activate()
-        wait()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(0,math.rad(360/tonumber(args[1])),0)
-    end
-end
-end)
-
 newcmd("dantis",{},function()
 Loops.antiabuse = false
 end)
@@ -3034,7 +3015,7 @@ newcmd("rcplr",{"command"},function(args)
     runCommand(prefix.."runcommandplr",args)
 end)
 
-newcmd("runcommandbatch",{"delay","command"},function(args)
+newcmd("runcommandbatch7123134762376",{"delay","command"},function(args)
                     local message = args[2]
                 for i=3, #args do
                         if args[i]=="<%RANDOMSTRING%>" then
@@ -3354,7 +3335,7 @@ newcmd("theme",{},function()
             game.Players:Chat('fogend nil')
             game.Players:Chat('blind all')
             game.Players:Chat("name all  ")
-            game.Players:Chat('h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n SHUTDOWN\n__________\n\n CXO HAS CRASHED THIS SERVER.\n\n SORRY :( \n\n ENJOY THE MUSIC\n\n (THIS PROBABLY ISNT PERSONAL) ')
+            game.Players:Chat('h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n SHUTDOWN\n__________\n\n CXO HAS CRASHED THIS SERVER.\n\n SORRY :( \n\n ENJOY THE MUSIC\n\n (THIS PROBABLY ISNT PERSONAL) ')
             game.Players:Chat('music 00000000000000000000000000000000000000000000006911766512')
             game.Players:Chat('gear me 000000000000000000000000000000000000000000000094794847')
             repeat wait() until game.Players.LocalPlayer.Backpack:FindFirstChild("VampireVanquisher")
@@ -3608,27 +3589,156 @@ newcmd("heaven", {}, function()
         end
         )
 
+newcmd("fixfiltertest", {}, function()
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\ng")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\ng")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\ng")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\ng")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\ng")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n u")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n u")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n u")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n u")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n u")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n  n")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n  n")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n  n")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n  n")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n  n")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n   s")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n   s")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n   s")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n   s")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n   s")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n    .")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n    .")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n    .")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n    .")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n    .")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n     l")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n     l")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n     l")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n     l")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n     l")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n      o")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n      o")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n      o")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n      o")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n      o")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n       l")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n       l")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n       l")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n       l")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n       l")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n        /")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n        /")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n        /")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n        /")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n        /")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n         M")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n         M")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n         M")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n         M")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n         M")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n          a")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n          a")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n          a")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n          a")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n          a")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n           r")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n           r")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n           r")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n           r")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n           r")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n            t")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n            t")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n            t")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n            t")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n            t")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n             i")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n             i")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n             i")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n             i")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n             i")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n              n")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n              n")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n              n")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n              n")
+game:GetService'Players':Chat("h Hola allá gente\n\n\n\n\n              n")
+end)
+
+newcmd("fixfilter",{},function()
+local file = "The roblox filter is ass"
+local a = {}
+
+for letter in file:gmatch(".") do
+  if letter ~= "\r" and letter ~= "\n" then
+    table.insert(a, letter)
+  end
+end
+
+for b, c in ipairs(a) do
+    local d = "variable_" .. tostring(b)
+    _G[d] = c
+end
+for b, c in ipairs(a) do
+    local e = string.rep("  ", 2 * (b - 1))
+    game.Players:Chat("h Hola allá gente\n\n\n\n\n\n\n" .. e .. _G["variable_" .. tostring(b)])
+end
+end
+end)
+
 newcmd("pmlag",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
         Loops.pmlag = true
         repeat wait()
-            game.Players:Chat("pm/"..v.Name.." ??????????????????????????????????????????\n????????????????????????????????????????????????????????\n??????????????????????????????????????????????????????????????????????????????????????????????????\n????????????????????????????????????\n??????????????????????????????????????????????????????????????\n??????????????????????????????????????????????????????????????????????????????????????????????????\n??????????????????????????????????????????????????\n????????????????????????????????????????????????")
+            game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lag time! \n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
             wait(0.005)
-            game.Players:Chat("pm/"..v.Name.." ??????????????????????????????????????????\n????????????????????????????????????????????????????????\n??????????????????????????????????????????????????????????????????????????????????????????????????\n????????????????????????????????????\n??????????????????????????????????????????????????????????????\n??????????????????????????????????????????????????????????????????????????????????????????????????\n??????????????????????????????????????????????????\n????????????????????????????????????????????????")
-            game.Players:Chat("pm/"..v.Name.." ??????????????????????????????????????????\n????????????????????????????????????????????????????????\n??????????????????????????????????????????????????????????????????????????????????????????????????\n????????????????????????????????????\n??????????????????????????????????????????????????????????????\n??????????????????????????????????????????????????????????????????????????????????????????????????\n??????????????????????????????????????????????????\n????????????????????????????????????????????????")
-            until not Loops.pmlag
+            game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lag time! \n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+            game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lag time! \n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        until not Loops.pmlag
         end
         end)
 
-newcmd("unpmlag",{},function()
+newcmd("dpmlag",{},function()
 Loops.pmlag = false
+end)
+
+newcmd("punishlag",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+        for i = 1,1000 do
+            game.Players:Chat("punish "..v.Name)
+            wait(0.005)
+            game.Players:Chat("unpunish "..v.Name)
+        end
+        wait(.5)
+        Loops.lagu = true
+        repeat wait()
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lag time! \n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        wait(0.005)
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lag time! \n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lag time! \n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        until not Loops.lagu
+    end
+end)
+
+newcmd("lightning",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+     game.Players:Chat("gear "..v.Name.." 00000000000000000000000000000000000000000000000000000000000000000169669671")
+    end
+end)
+
+newcmd("dpunishlag",{},function()
+    Loops.lagu = false
 end)
 
 newcmd("pb",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-        game.Players:Chat("gear "..v.Name.." 000000000000000000000000000000000000000000000018474459")
+        game.Players:Chat("gear "..v.Name.." 00000000000000000000000000000000000000000000000000000018474459")
     end
 end)
 
@@ -3679,7 +3789,7 @@ newcmd("tools",{"player"},function(args)
 		game.Players:Chat("gear "..v.Name.." 00000000000000000000000000000000000000000079736563")
 		game.Players:Chat("gear "..v.Name.." 00000000000000000000000000000000000000000088146497")
 		game.Players:Chat("gear "..v.Name.." 000000000000000000000000000000000000000000187840979")
-		
+        game.Players:Chat("gear "..v.Name.." 000000000000000000000000000000000000000000169669671")
     end
 end)
 
@@ -3938,7 +4048,8 @@ newcmd("kick2",{"player"},function(args)
         game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n You have been kicked from this server.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 		game.Players:Chat("invis me")
 		game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n You have been kicked from this server.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-		task.wait(.23)
+		game.Players:Chat("hat me "..randomhat[math.random(1, #randomhat)])
+        task.wait(.23)
 Loops.rks = true
 repeat wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame *CFrame.new(0,0,2) * CFrame.Angles(0,math.rad(180),0)
