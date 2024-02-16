@@ -3003,7 +3003,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 end)
 
 
-newcmd("runcommandplrCUMOHFUCKYEAHONMYTITS",{"command","player1","player2"},function(args)
+newcmd("runcumonyourtits",{"command","player1","player2"},function(args)
     for i,v in pairs(GetPlayers(args[3])) do
         for i2,v2 in pairs(GetPlayers(args[2])) do
             print(args[1].." "..v2.Name.." "..v.Name)
@@ -3012,7 +3012,7 @@ newcmd("runcommandplrCUMOHFUCKYEAHONMYTITS",{"command","player1","player2"},func
     end
 end)
 
-newcmd("rcplrCUMYESDADDY",{"command"},function(args)
+newcmd("runthisdickinyourmouthyummyfuckcum",{"command"},function(args)
     runCommand(prefix.."runcommandplr",args)
 end)
 
@@ -3063,7 +3063,7 @@ newcmd("unwl",{"player"},function(args)
     end
 end)
 
-newcmd("wlassescumfuckyes",{},function()
+newcmd("wlaSSOHMYGODBIGEBONYASS",{},function()
     local wl = wl
     local message = "Currently wl ("..#wl.."): "
                 for i,v in pairs(wl) do
@@ -4026,7 +4026,6 @@ game.Players:Chat("rocket/me/"..v.Name.."/me/"..v.Name.."/me/"..v.Name)
 until not Loops.rks
 end
 end)
-end)
 
 newcmd("sk8r",{"player"},function(args)
     local Player = GetPlayers(args[1])
@@ -4068,7 +4067,6 @@ game.Players:Chat("rocket/me/"..v.Name.."/me/"..v.Name.."/me/"..v.Name)
 game.Players:Chat("rocket/me/"..v.Name.."/me/"..v.Name.."/me/"..v.Name)
 until not Loops.rk
 end
-end)
 end)
 
 newcmd("skick",{},function()
