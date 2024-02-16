@@ -3643,7 +3643,7 @@ newcmd("punishlag",{"player"},function(args)
         Loops.punishlag = true
         repeat wait()
         game.Players:Chat("punish "..v.Name)
-        wait(0.005)
+        wait(0.0001)
         game.Players:Chat("unpunish "..v.Name)
         until not Loops.punishlag
     end
@@ -4506,4 +4506,4 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
-print("abcde")
+print("abcdddd")
