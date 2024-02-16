@@ -4003,14 +4003,14 @@ end)
 newcmd("sk8r",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-game.Players:Chat("hat "..v.Name.." "..sk8r[math.random(1, #sk8r)])
+game.Players:Chat("hat "..v.Name.." "..sk8rs[math.random(1, #sk8rs)])
     end
 end)
 
 newcmd("skater",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-game.Players:Chat("hat "..v.Name.." "..sk8r[math.random(1, #sk8r)])
+game.Players:Chat("hat "..v.Name.." "..sk8rs[math.random(1, #sk8rs)])
     end
 end)
 
