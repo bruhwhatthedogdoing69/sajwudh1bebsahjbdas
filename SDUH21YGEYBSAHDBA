@@ -3591,9 +3591,8 @@ newcmd("heaven", {}, function()
         )
 
 newcmd("fixfilter",{},function()
-game.Players:Chat("h \n\n\n\n\nfix yo silly filter roadblocks")
 for i = 1,5 do
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\nguns.lol/Martin")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\nfix yo silly filter roadblocks")
 end
 for i = 1,20 do
 game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n_")
@@ -3645,11 +3644,7 @@ newcmd("punishlag",{"player"},function(args)
         Loops.punishlag = true
         repeat wait()
         game.Players:Chat("punish "..v.Name)
-        game.Players:Chat("unpunish "..v.Name)
-        game.Players:Chat("punish "..v.Name)
-        wait(0.0001)
-        game.Players:Chat("unpunish "..v.Name)
-        game.Players:Chat("punish "..v.Name)
+        task.wait()
         game.Players:Chat("unpunish "..v.Name)
         until not Loops.punishlag
     end
@@ -3663,6 +3658,15 @@ newcmd("lightning",{"player"},function(args)
 end)
 
 newcmd("dpunishlag",{},function()
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
     Loops.punishlag = false
 end)
 
