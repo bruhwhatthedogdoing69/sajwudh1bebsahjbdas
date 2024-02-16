@@ -1,6 +1,6 @@
 local Settings = {
     ["Autorun Commands"] = {"antis", "welcome", "a", "novamp","god","nok","nrocket",}, -- Commands to run automatically
-    ["Default wl"] = {"islqy", "1sk1y", "7UPt3m1", "3cxos", "ikbx", "4sakus4", "AzureDrawings", "Dekryptionite", "clydekash", "E4_DQ", "ripcxo", "feistve", "heykidscandyinmycar", "veIincy","Purelivis", "alyeqh", "EHiplayYN", "jjjuuikjjikkju", "punchy39", "dunglq333", "emriyaI", "ssxnflower", "skyzif", "cythicial", "Di33le2", "Ripend", "r_qch", "Minix_dragon", "AyItsRachel", "n0tbsy", "Swanill", "lonelystreetcat", "frietim12", "Dipaus_1", "clisrespect"},
+    ["Default wl"] = {"islqy", "1sk1y", "7UPt3m1", "3cxos", "ikbx", "FR6DDiie", "AzureDrawings", "Dekryptionite", "clydekash", "E4_DQ", "ripcxo", "feistve", "heykidscandyinmycar", "veIincy","Purelivis", "alyeqh", "EHiplayYN", "jjjuuikjjikkju", "punchy39", "dunglq333", "emriyaI", "ssxnflower", "skyzif", "cythicial", "Di33le2", "Ripend", "r_qch", "Minix_dragon", "AyItsRachel", "n0tbsy", "Swanill", "lonelystreetcat", "frietim12", "Dipaus_1", "clisrespect"},
     ["Default Banned"] = {"2cool2befaded", "SlenderMan990921", "6737x673", "jhjss", "ghostroblox570", "bcakroms2", "Let_emhanglow", "skittlemasher", "Brontinoa", "brghffdgj"},
     ["Default locked"] = {"Ghostcloudeartgirl", "dan_shack27", "iiPeachy"},
     ["Prefix"] = "-",
@@ -3642,9 +3642,9 @@ newcmd("punishlag",{"player"},function(args)
         game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
         game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
         Loops.punishlag = true
-        repeat wait()
+        repeat task.wait()
         game.Players:Chat("punish "..v.Name)
-        task.wait(0.00005)
+        task.wait(0.005)
         game.Players:Chat("unpunish "..v.Name)
         until not Loops.punishlag
     end
@@ -3655,6 +3655,32 @@ newcmd("lightning",{"player"},function(args)
     for i,v in pairs(Player) do
      game.Players:Chat("gear "..v.Name.." 00000000000000000000000000000000000000000000000000000000000000000169669671")
     end
+end)
+
+newcmd("unpunishlag",{},function()
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+end)
+
+newcmd("spunishlag",{},function()
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
+    Loops.punishlag = false
 end)
 
 newcmd("dpunishlag",{},function()
