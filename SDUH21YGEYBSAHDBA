@@ -3654,7 +3654,7 @@ newcmd("lightning",{"player"},function(args)
 end)
 
 newcmd("dpunishlag",{},function()
-    Loops.lagu = false
+    Loops.punishlag = false
 end)
 
 newcmd("pb",{"player"},function(args)
@@ -4503,4 +4503,4 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
-print("bahlls")
+print("abc")
