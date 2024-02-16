@@ -33,7 +33,6 @@ local Connections = {}
 local Loops = {}
 local Toolbans = {}
 local randomhat = {"16030226601", "15915558570", "16030189050", "15993280987", "15655243940", "15915454374", "15915462314", "20573098", "63241985", "14859292794"}
-local regen = fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
 local ServerLockedProtection = {}
 local wl = Settings["Default wl"]
 local Banned = Settings["Default Banned"]
