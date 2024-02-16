@@ -9,8 +9,6 @@ local Settings = {
 repeat wait() until game:IsLoaded()
 if game.PlaceId ~= 112420803 then return end
 
-print("yah")
-
 local loadtime = os.clock()
 local owner = game.Players.LocalPlayer
 local player = owner
@@ -3065,7 +3063,7 @@ newcmd("unwl",{"player"},function(args)
     end
 end)
 
-newcmd("wla",{},function()
+newcmd("wlassescumfuckyes",{},function()
     local wl = wl
     local message = "Currently wl ("..#wl.."): "
                 for i,v in pairs(wl) do
@@ -3992,8 +3990,6 @@ end)
 newcmd("kick2",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-    if ..v.Name == "3cxos" then return end
-    else
 	game.Players:Chat("time -")
 	game.Players:Chat("reset "..v.Name)
 	wait(.23)
@@ -4049,8 +4045,6 @@ end)
 newcmd("kick",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-        if ..v.Name == "3cxos" then return end
-        else
         game.Players:Chat("respawn "..v.Name)
         wait(.25)
 		game.Players:Chat("speed "..v.Name.." 0")
@@ -4565,4 +4559,3 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
-print("yup")
