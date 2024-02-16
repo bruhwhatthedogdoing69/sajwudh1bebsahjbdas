@@ -33,6 +33,7 @@ local Connections = {}
 local Loops = {}
 local Toolbans = {}
 local randomhat = {"16030226601", "15915558570", "16030189050", "15993280987", "15655243940", "15915454374", "15915462314", "20573098", "63241985", "14859292794"}
+local regen = fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
 local ServerLockedProtection = {}
 local wl = Settings["Default wl"]
 local Banned = Settings["Default Banned"]
@@ -174,6 +175,7 @@ newcmd("ban",{"player"},function(args)
 end)
 
 newcmd("lock",{"player"},function(args)
+    fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
     Loops.lock = true
     repeat wait()
     for i,v in pairs(GetPlayers(args[1])) do
@@ -202,6 +204,7 @@ newcmd("lock",{"player"},function(args)
 end)
 
 newcmd("l",{"player"},function(args)
+    fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
     Loops.lock = true
     repeat wait()
     for i,v in pairs(GetPlayers(args[1])) do
@@ -3591,39 +3594,37 @@ newcmd("heaven", {}, function()
 
 newcmd("fixfilter",{},function()
 for i = 1,5 do
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n guns.lol/Martin")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\nguns.lol/Martin")
 end
 for i = 1,20 do
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n_")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n__")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n___")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n____")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n_____")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n______")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n_______")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n________")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n_________")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n__________")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n___________")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n____________")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n_____________")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n______________")
-game.Players:Chat("h Hello there people\n\n\n\n\n\n\n_______________")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n_")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n__")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n___")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n____")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n_____")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n______")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n_______")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n________")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n_________")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n__________")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n___________")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n____________")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n_____________")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n______________")
+game.Players:Chat("h Hello there people\n\n\n\n\n\n\n\n\n_______________")
 end
 end)
 
 newcmd("pmlag",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-        Loops.pmlag = true
-        repeat wait()
-            game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lag time! \n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-            wait(0.005)
-            game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lag time! \n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-            game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lag time! \n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-        until not Loops.pmlag
+        game.Players:Chat("punish "..v.Name)
+        fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
+        for i = 1, 350 do
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n🤑😎🥶🤣😭😇🤑😎🥶😭🤑😎😇🥶😭🤑😎🥶🤣😭🤑😎🤣🥶😭😇🤑😀\n🤑😎🥶🤣😭😇🤑😎🥶😭🤑😎😇🥶😭🤑😎🥶🤣😭🤑😎🤣🥶😭😇🤑😀\n😇😝🤪😜😊😆🙂🤪🤣😜😅😀🙂😀😃🤪😜😁😝😆😊😅😀😆😊😅😀🙃😝😇😇😇🙃😇🙂🤣🤣😆😆😇😃😜😀😝🤪😀😝😄😉😅🤪\n🤑😎🥶🤣😭😇🤑😎🥶😭🤑😎😇🥶😭🤑😎🥶🤣😭🤑😎🤣🥶😭😇🤑😀\n😇😝🤪😜😊😆🙂🤪🤣😜😅😀🙂😀😃🤪😜😁😝😆😊😅😀😆😊😅😀🙃😝😇😇😇🙃😇🙂🤣🤣😆😆😇😃😜😀😝🤪😀😝😄😉😅🤪\n🤑😎🥶🤣😭😇🤑😎🥶😭🤑😎😇🥶😭🤑😎🥶🤣😭🤑😎🤣🥶😭😇🤑😀\n😇😝🤪😜😊😆🙂🤪🤣😜😅😀🙂😀😃🤪😜😁🤪😜😁🤪🤪\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
         end
-        end)
+    end
+end)
 
 newcmd("dpmlag",{},function()
 Loops.pmlag = false
@@ -3632,16 +3633,18 @@ end)
 newcmd("punishlag",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
+        fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
+        game.Players:Chat("blind "..v.Name)
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
         Loops.punishlag = true
         repeat wait()
         game.Players:Chat("punish "..v.Name)
-        wait(0.005)
         game.Players:Chat("unpunish "..v.Name)
-        task.wait()
-        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lag time! \n\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-        wait(0.005)
-        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lag time! \n\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Lag time! \n\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑😎🥶😭🤑\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
         until not Loops.punishlag
     end
 end)
@@ -3895,7 +3898,7 @@ newcmd("unrocket",{"player"},function(args)
 	end
 end)
 
-newcmd("unshield",{"player"},function(args)
+newcmd("unjail",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
 	game.Players:Chat("unjail/"..v.Name)
@@ -3950,6 +3953,7 @@ end)
 newcmd("kick2",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
+    fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
 	game.Players:Chat("time -")
 	game.Players:Chat("reset "..v.Name)
 	wait(.23)
@@ -3990,6 +3994,7 @@ end)
 newcmd("kick",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
+        fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
         game.Players:Chat("respawn "..v.Name)
         wait(.25)
 		game.Players:Chat("speed "..v.Name.." 0")
