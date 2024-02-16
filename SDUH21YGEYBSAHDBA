@@ -3003,7 +3003,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 end)
 
 
-newcmd("runcommandplr",{"command","player1","player2"},function(args)
+newcmd("runcommandplrCUMOHFUCKYEAHONMYTITS",{"command","player1","player2"},function(args)
     for i,v in pairs(GetPlayers(args[3])) do
         for i2,v2 in pairs(GetPlayers(args[2])) do
             print(args[1].." "..v2.Name.." "..v.Name)
@@ -3012,7 +3012,7 @@ newcmd("runcommandplr",{"command","player1","player2"},function(args)
     end
 end)
 
-newcmd("rcplr",{"command"},function(args)
+newcmd("rcplrCUMYESDADDY",{"command"},function(args)
     runCommand(prefix.."runcommandplr",args)
 end)
 
@@ -4559,4 +4559,3 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
-print("cum in that ass")
