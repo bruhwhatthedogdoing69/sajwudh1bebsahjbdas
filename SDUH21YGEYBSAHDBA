@@ -33,6 +33,7 @@ local Connections = {}
 local Loops = {}
 local Toolbans = {}
 local randomhat = {"16030226601", "15915558570", "16030189050", "15993280987", "15655243940", "15915454374", "15915462314", "20573098", "63241985", "14859292794"}
+local sk8rs = {"250395756", "163491934", "20573098", "63241985", "47702745", "16412796", "139618317", "250395756", "187846511", "16101707", "267175934"}
 local ServerLockedProtection = {}
 local wl = Settings["Default wl"]
 local Banned = Settings["Default Banned"]
@@ -3990,6 +3991,20 @@ until not Loops.rks
 end
 end)
 
+newcmd("sk8r",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+game.Players:Chat("hat "..v.Name.." "..sk8r[math.random(1, #sk8r)])
+    end
+end)
+
+newcmd("skater",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+game.Players:Chat("hat "..v.Name.." "..sk8r[math.random(1, #sk8r)])
+    end
+end)
+
 newcmd("kick",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
@@ -4506,4 +4521,3 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
-print("abcdddd")
