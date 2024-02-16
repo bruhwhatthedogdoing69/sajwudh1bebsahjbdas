@@ -3644,7 +3644,7 @@ newcmd("punishlag",{"player"},function(args)
         Loops.punishlag = true
         repeat wait()
         game.Players:Chat("punish "..v.Name)
-        task.wait()
+        task.wait(0.00005)
         game.Players:Chat("unpunish "..v.Name)
         until not Loops.punishlag
     end
