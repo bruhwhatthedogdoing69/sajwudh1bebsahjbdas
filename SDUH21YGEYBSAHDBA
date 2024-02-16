@@ -3620,9 +3620,10 @@ newcmd("pmlag",{"player"},function(args)
     for i,v in pairs(Player) do
         game.Players:Chat("punish "..v.Name)
         fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
-        for i = 1, 350 do
+        Loops.pmlag = true
+        repeat wait()
         game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n🤑😎🥶🤣😭😇🤑😎🥶😭🤑😎😇🥶😭🤑😎🥶🤣😭🤑😎🤣🥶😭😇🤑😀\n🤑😎🥶🤣😭😇🤑😎🥶😭🤑😎😇🥶😭🤑😎🥶🤣😭🤑😎🤣🥶😭😇🤑😀\n😇😝🤪😜😊😆🙂🤪🤣😜😅😀🙂😀😃😜😀😝🤪😀😝😄😉😅🤪\n🤑😎🥶🤣😭😇🤑😎🥶😭🤑😎😇🥶😭🤑😎🥶🤣😭🤑😎🤣🥶😭😇🤑😀\n😇😝🤪😜😊🙃😇🙂🤣🤣😆😆😇😃😜😀😝🤪😀😝😄😉😅🤪\n🤑😎🥶🤣😭😇🤑😎🤣😭🤑😎🤣🥶😭😇🤑😀\n😇😝🤪😜😊😆🙂🤪🤣😜😅😀🙂😀😃🤪😜😁🤪😜😁🤪🤪\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-        end
+        until not Loops.pmlag
     end
 end)
 
@@ -3635,12 +3636,15 @@ newcmd("punishlag",{"player"},function(args)
     for i,v in pairs(Player) do
         fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
         game.Players:Chat("blind "..v.Name)
-        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+        game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
         Loops.punishlag = true
         repeat wait()
         game.Players:Chat("punish "..v.Name)
@@ -4509,4 +4513,3 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
-print("hi")
