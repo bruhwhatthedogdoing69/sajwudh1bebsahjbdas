@@ -174,7 +174,6 @@ newcmd("ban",{"player"},function(args)
 end)
 
 newcmd("lock",{"player"},function(args)
-    fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
     Loops.lock = true
     repeat wait()
     for i,v in pairs(GetPlayers(args[1])) do
@@ -203,7 +202,6 @@ newcmd("lock",{"player"},function(args)
 end)
 
 newcmd("l",{"player"},function(args)
-    fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
     Loops.lock = true
     repeat wait()
     for i,v in pairs(GetPlayers(args[1])) do
@@ -3618,7 +3616,6 @@ newcmd("pmlag",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
         game.Players:Chat("punish "..v.Name)
-        fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
         Loops.pmlag = true
         repeat wait()
         game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\n🤑😎🥶🤣😭😇🤑😎🥶😭🤑😎😇🥶😭🤑😎🥶🤣😭🤑😎🤣🥶😭😇🤑😀\n🤑😎🥶🤣😭😇🤑😎🥶😭🤑😎😇🥶😭🤑😎🥶🤣😭🤑😎🤣🥶😭😇🤑😀\n😇😝🤪😜😊😆🙂🤪🤣😜😅😀🙂😀😃😜😀😝🤪😀😝😄😉😅🤪\n🤑😎🥶🤣😭😇🤑😎🥶😭🤑😎😇🥶😭🤑😎🥶🤣😭🤑😎🤣🥶😭😇🤑😀\n😇😝🤪😜😊🙃😇🙂🤣🤣😆😆😇😃😜😀😝🤪😀😝😄😉😅🤪\n🤑😎🥶🤣😭😇🤑😎🤣😭🤑😎🤣🥶😭😇🤑😀\n😇😝🤪😜😊😆🙂🤪🤣😜😅😀🙂😀😃🤪😜😁🤪😜😁🤪🤪\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
@@ -3633,7 +3630,6 @@ end)
 newcmd("punishlag",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-        fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
         game.Players:Chat("blind "..v.Name)
         game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
         game.Players:Chat("pm/"..v.Name.." \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLag time!\n\nenjoy the frozen game :D\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
@@ -3957,7 +3953,6 @@ end)
 newcmd("kick2",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-    fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
 	game.Players:Chat("time -")
 	game.Players:Chat("reset "..v.Name)
 	wait(.23)
@@ -3998,7 +3993,6 @@ end)
 newcmd("kick",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-        fireclickdetector(game:GetService("Workspace").Terrain["_Game"].Admin.Regen.ClickDetector)
         game.Players:Chat("respawn "..v.Name)
         wait(.25)
 		game.Players:Chat("speed "..v.Name.." 0")
@@ -4512,3 +4506,4 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
+print("abcde")
