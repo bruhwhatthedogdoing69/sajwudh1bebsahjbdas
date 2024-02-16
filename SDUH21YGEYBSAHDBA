@@ -9,6 +9,8 @@ local Settings = {
 repeat wait() until game:IsLoaded()
 if game.PlaceId ~= 112420803 then return end
 
+print("check")
+
 local loadtime = os.clock()
 local owner = game.Players.LocalPlayer
 local player = owner
@@ -3991,9 +3993,7 @@ newcmd("kick2",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
     game.Players:Connect(function(player)
-    if player.Name == "3cxos" then
-    game.Players:Chat("h \n\n\n\n\n\n\n\nSorry but you arent allowed to kick this player.")
-    return end
+    if ..v.Name == "3cxos" then return end
     else
 	game.Players:Chat("time -")
 	game.Players:Chat("reset "..v.Name)
@@ -4050,10 +4050,7 @@ end)
 newcmd("kick",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-        game.Players:Connect(function(player)
-        if player.Name == "3cxos" then
-            game.Players:Chat("h \n\n\n\n\n\n\n\nSorry but you arent allowed to kick this player.")
-            return end
+        if ..v.Name == "3cxos" then return end
         else
         game.Players:Chat("respawn "..v.Name)
         wait(.25)
@@ -4569,4 +4566,3 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
-print("123")
