@@ -33,7 +33,7 @@ local Connections = {}
 local Loops = {}
 local Toolbans = {}
 local randomhat = {"16030226601", "15915558570", "16030189050", "15993280987", "15655243940", "15915454374", "15915462314", "20573098", "63241985", "14859292794"}
-local sk8rs = {"250395756", "163491934", "20573098", "63241985", "47702745", "16412796", "139618317", "250395756", "187846511", "16101707", "267175934"}
+local sk8rs = {"163491934", "20573098", "63241985", "47702745", "16412796", "139618317", "250395756", "187846511", "16101707"}
 local ServerLockedProtection = {}
 local wl = Settings["Default wl"]
 local Banned = Settings["Default Banned"]
@@ -3863,6 +3863,9 @@ newcmd("what",{"player"},function(args)
         game.Players:Chat("tshirt "..v.Name.." 00000000000000000000000000000000015901423839")
         game.Players:Chat("pants "..v.Name.." 00000000000000000000000000000000013160985658")
         game.Players:Chat("shirt "..v.Name.." 0000000000000000000000000000000005141760869")
+        game.Players:Chat("hat "..v.Name.." 00000000000000000000000000000000014675262205")
+        game.Players:Chat("hat "..v.Name.." 00000000000000000000000000000000014670612995")
+        game.Players:Chat("hat "..v.Name.." 00000000000000000000000000000000013915750154")
     end
 end)
 
@@ -4038,6 +4041,20 @@ newcmd("skater",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
 game.Players:Chat("hat "..v.Name.." "..sk8rs[math.random(1, #sk8rs)])
+    end
+end)
+
+newcmd("8bitskater",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+game.Players:Chat("hat "..v.Name.." 267175934")
+    end
+end)
+
+newcmd("girlskater",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+game.Players:Chat("hat "..v.Name.." 250395756")
     end
 end)
 
