@@ -4040,7 +4040,7 @@ end)
 newcmd("tptest",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame *CFrame.new(3,0,0) * CFrame.Angles(0,math.rad(180),0)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame *CFrame.new(0,3,0) * CFrame.Angles(0,math.rad(180),0)
     end
 end)
 
@@ -4581,3 +4581,4 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
+print("abc")
