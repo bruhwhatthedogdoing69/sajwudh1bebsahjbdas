@@ -1049,7 +1049,7 @@ newcmd("fp",{},function()
                 colorAPI.colorPads(colorAPI.transformToColor3(BrickColor.new("Bright green")))
             end)
     wait(0.23)
-    game.Players:Chat("ungear me"..math.random(999))
+    game.Players:Chat("ungear me")
     --nil
 end)
 
