@@ -3416,7 +3416,7 @@ end)
 newcmd("welcome",{},function()
 game.Players.ChildAdded:Connect(function(player)
 wait(1)
-game.Players:Chat("h \n\n\n\n\n\n "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
+game.Players:Chat("h \n\n\n\n\n\n\n "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
 end)
 end)
 
@@ -4040,7 +4040,13 @@ end)
 newcmd("tptest",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame *CFrame.new(0,3,0) * CFrame.Angles(0,math.rad(180),0)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame *CFrame.new(0,0,2) * CFrame.Angles(0,math.rad(360),0)
+game.Players:Chat("unseizure me")
+game.Players:Chat("sit me")
+game.Players:Chat("size me 1.3")
+game.Players:Chat("invis me")
+wait(.23)
+game.Players:Chat("rocket/me")
     end
 end)
 
@@ -4411,7 +4417,7 @@ local function PlayerAdded(Player)
     spawn(function()
         repeat wait() until Player and Player.Name
         if table.find(wl,Player.Name) then
-            game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nwhitelisted user "..Player.Name.." has joined!\nsay -wlcmds to view a list of cmds.")
+            game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\nwhitelisted user "..Player.Name.." has joined!\nsay -wlcmds to view a list of cmds.")
             end
         
         if table.find(Banned,Player.Name) then
@@ -4581,4 +4587,3 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
-print("abc")
