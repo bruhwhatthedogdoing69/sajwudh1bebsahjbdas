@@ -4037,6 +4037,13 @@ game.Players:Chat("hat "..v.Name.." "..sk8rs[math.random(1, #sk8rs)])
     end
 end)
 
+newcmd("tptest",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame *CFrame.new(3,0,0) * CFrame.Angles(0,math.rad(180),0)
+    end
+end)
+
 newcmd("skater",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
