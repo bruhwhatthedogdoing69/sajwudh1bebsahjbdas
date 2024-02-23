@@ -2241,20 +2241,9 @@ newcmd("antis",{},function()
                 if v:IsA("BasePart") then v.Anchored = false end
             end
         end
-        if chr and chr:FindFirstChild("Addon") then
-            chr:FindFirstChild("Addon"):Destroy()
-            game.Players:Chat("reset me")
-        end
-        if chr and chr.Head and chr.Torso and game.Players.LocalPlayer:DistanceFromCharacter(game.Players.LocalPlayer.Character.Torso.Position) == 0 then
-            game.Players:Chat("reset me")
-        end
         if game:GetService("Workspace").Terrain["_Game"].Folder:FindFirstChild(plr.Name.."'s jail") then
             game:GetService("Workspace").Terrain["_Game"].Folder:FindFirstChild(plr.Name.."'s jail"):Destroy()
             game.Players:Chat("unjail me")
-        end
-        if chr and chr.Torso and chr.Torso:FindFirstChild("SPINNER") then
-            chr.Torso:FindFirstChild("SPINNER"):Destroy()
-            game.Players:Chat("unspin me")
         end
         if plr.PlayerGui:FindFirstChild("NoClip") then
             plr.PlayerGui:FindFirstChild("NoClip"):Destroy()
