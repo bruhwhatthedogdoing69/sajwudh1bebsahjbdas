@@ -1,7 +1,7 @@
 local Settings = {
     ["Autorun Commands"] = {"antis", "welcome", "a", "novamp","god","nok","nrocket",}, -- Commands to run automatically
     ["Default wl"] = {"islqy", "1sk1y", "7UPt3m1", "3cxos", "ikbx", "FR6DDiie", "AzureDrawings", "Dekryptionite", "clydekash", "E4_DQ", "ripcxo", "feistve", "heykidscandyinmycar", "veIincy","Purelivis", "alyeqh", "EHiplayYN", "jjjuuikjjikkju", "punchy39", "dunglq333", "emriyaI", "ssxnflower", "skyzif", "cythicial", "Di33le2", "Ripend", "r_qch", "Minix_dragon", "AyItsRachel", "n0tbsy", "Swanill", "lonelystreetcat", "frietim12", "Dipaus_1", "clisrespect"},
-    ["Default Banned"] = {"2cool2befaded", "SlenderMan990921", "6737x673", "jhjss", "ghostroblox570", "bcakroms2", "Let_emhanglow", "skittlemasher", "Brontinoa", "brghffdgj"},
+    ["Default Banned"] = {"2cool2befaded", "teamflippy", "SlenderMan990921", "6737x673", "jhjss", "ghostroblox570", "bcakroms2", "Let_emhanglow", "skittlemasher", "Brontinoa", "brghffdgj"},
     ["Default locked"] = {"Ghostcloudeartgirl", "dan_shack27", "iiPeachy"},
     ["Prefix"] = "-",
     }
@@ -4411,8 +4411,8 @@ local function PlayerAdded(Player)
         if table.find(Banned,Player.Name) then
             repeat wait() until Player and Player.Character
             wait(0.25)
+            game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nYou are blacklisted "..Player.Name.."\nrejoining will not work.\nfind a new server because ur not getting unbanned")
             runCommand(prefix.."kick",{Player.Name})
-            game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nYou are blacklisted "..Player.Name.."\nrejoining will not work.\nfind a new server cus ur not getting unbanned")
         end
         
         if table.find(Defaultlocked,Player.Name) then
