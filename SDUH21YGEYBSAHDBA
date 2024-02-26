@@ -2154,6 +2154,20 @@ newcmd("cat",{"player"},function(args)
 end
 end)
 
+newcmd("pregnant",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+        game.Players:Chat("hat "..v.Name.." 000000000000000000000000000013028222639")   
+end
+end)
+
+newcmd("stomach",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+        game.Players:Chat("hat "..v.Name.." 000000000000000000000000000013028222639")   
+end
+end)
+
 newcmd("vending",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
