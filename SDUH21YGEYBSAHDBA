@@ -3037,7 +3037,7 @@ newcmd("wl",{"player"},function(args)
     for i,v in pairs(Player) do
         if v ~= game.Players.LocalPlayer and not table.find(wl,v.Name) then
             table.insert(wl,v.Name)
-            game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nYou have been whitelisted "..v.Name.." \nThe prefix is - (hyphen) \n Say -wlcmds to get started!\n This script was made by 3cxos (cxo)\ndm whycxo (without the wh) for help.")
+            game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nYou have been whitelisted "..v.Name.." \nThe prefix is - (hyphen) \n Say -wlcmds to get started!\n This script was made by 3cxos (cxo) [guns.lol/cxo]\ndm whycxo (without the wh) for help.")
         end
     end
 end)
@@ -3350,13 +3350,10 @@ newcmd("theme",{},function()
             newcmd("dcrash",{},function()
                 game.Players:Chat('respawn all')
                 game.Players:Chat('tp all me')
-				game.Players:Chat('h/ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________')
                 game.Players:Chat('fogend')
-				game.Players:Chat('h/ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________')
                 game.Players:Chat("fogcolor "..math.random(255).." "..math.random(255).." "..math.random(255))
-				game.Players:Chat('h/ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________')
                 game.Players:Chat("time -")
-				game.Players:Chat('h/ \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________')
+				game.Players:Chat('h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________\n\n[guns.lol/cxo]')
                 game.Players:Chat('music 000000000000000000000000006841685130')
                 wait(0.05)
 for i = 1,128 do
@@ -3366,6 +3363,8 @@ end
 end)
 
                 newcmd("wlcrash",{},function()
+                    game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[guns.lol/cxo]")
+                    wait(0.005)
                 for i = 1,128 do
                 game.Players:Chat("dog all all all")
                 game.Players:Chat("clone all all all")
@@ -4401,7 +4400,7 @@ Loops.ark = false
 end)
 
 newcmd("credits",{},function()
-    game.Players:Chat("h \n\n\n\n\n\n\nmade by 3cxos")
+    game.Players:Chat("h \n\n\n\n\n\n\nmade by 3cxos\nsocials: \n[guns.lol/cxo]")
 end)
 
 local function PlayerAdded(Player)
