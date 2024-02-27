@@ -3305,17 +3305,17 @@ game.Players:Chat('h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 end)
 
 newcmd("disco",{},function()
-Loops.disco = true
-repeat wait(0.005)
-    game.Players:Chat("time -")
-    game.Players:Chat("colorshifttop 0 1000 0")
-    game.Players:Chat("colorshifttop 1000 1000 0")
-    game.Players:Chat("colorshifttop 1000 0 0")
-    game.Players:Chat("colorshifttop 1000 0 1000")
-    game.Players:Chat("colorshifttop 0 0 1000")
-    game.Players:Chat("colorshifttop 0 1000 1000")
-    until not Loops.disco
-    end
+    Loops.disco = true
+    repeat wait()
+        game.Players:Chat("time -")
+        game.Players:Chat("colorshifttop 0 1000 0")
+        game.Players:Chat("colorshifttop 1000 1000 0")
+        game.Players:Chat("colorshifttop 1000 0 0")
+        game.Players:Chat("colorshifttop 1000 0 1000")
+        game.Players:Chat("colorshifttop 0 0 1000")
+        game.Players:Chat("colorshifttop 0 1000 1000")  
+        task.wait(0.005)  
+        until not Loops.disco
 end)
 
 newcmd("ddisco",{},function()
