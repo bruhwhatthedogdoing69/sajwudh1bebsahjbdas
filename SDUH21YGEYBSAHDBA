@@ -3305,32 +3305,38 @@ game.Players:Chat('h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 end)
 
 newcmd("disco",{},function()
+    game.Players:Chat("time -")
     Loops.disco = true
     repeat wait()
-        game.Players:Chat("time -")
         game.Players:Chat("colorshifttop 0 1000 0")
         game.Players:Chat("colorshifttop 1000 1000 0")
         game.Players:Chat("colorshifttop 1000 0 0")
         game.Players:Chat("colorshifttop 1000 0 1000")
         game.Players:Chat("colorshifttop 0 0 1000")
         game.Players:Chat("colorshifttop 0 1000 1000")  
-        task.wait(0.005)  
-        until not Loops.disco
+    until not Loops.disco
 end)
 
 newcmd("rgb",{},function()
+    game.Players:Chat("time -")
     Loops.disco = true
     repeat wait()
-        game.Players:Chat("time -")
         game.Players:Chat("colorshifttop 0 1000 0")
         game.Players:Chat("colorshifttop 1000 1000 0")
         game.Players:Chat("colorshifttop 1000 0 0")
         game.Players:Chat("colorshifttop 1000 0 1000")
         game.Players:Chat("colorshifttop 0 0 1000")
         game.Players:Chat("colorshifttop 0 1000 1000")  
-        task.wait(0.005)  
-        until not Loops.disco
+    until not Loops.disco
 end)
+
+newcmd("drgb",{},function()
+    Loops.disco = false
+    end)
+
+    newcmd("srgb",{},function()
+        Loops.disco = false
+        end)
 
 newcmd("ddisco",{},function()
 Loops.disco = false
