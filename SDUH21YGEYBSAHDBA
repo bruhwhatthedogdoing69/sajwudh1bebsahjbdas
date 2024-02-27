@@ -3344,22 +3344,97 @@ end)
 
 newcmd("drgb",{},function()
     Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
     end)
 
     newcmd("srgb",{},function()
         Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
+        Loops.disco = false
         end)
 
 newcmd("ddisco",{},function()
-Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
 end)
 
 newcmd("undisco",{},function()
     Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
     end)
 
 newcmd("sdisco",{},function()
-        Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
+    Loops.disco = false
     end)
 
 newcmd("rbackwall",{},function()
