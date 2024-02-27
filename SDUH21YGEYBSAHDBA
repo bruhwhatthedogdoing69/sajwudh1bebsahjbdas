@@ -3343,9 +3343,32 @@ newcmd("theme",{},function()
             game.Players:Chat('unsize me')
             end
             wait(1)
-            game.Players:Chat('h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[SHUTDOWN]\n\nvgcrash was bypassed / failed, initiating backup crash.\n\nguns.lol/cxo\n____________\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[SHUTDOWN]\n\nvgcrash was bypassed / failed, initiating backup crash.\n\nguns.lol/cxo\n____________\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[SHUTDOWN]\n\nvgcrash was bypassed / failed, initiating backup crash.\n\nguns.lol/cxo\n____________')
-            wait(.5)
-            game.Players:Chat("-pcrash")
+                for i = 1,150 do
+                game.Players:Chat("shield/all/all/all")
+                game.Players:Chat("rocket/all/all/all")
+                game.Players:Chat("normal/all/all/all")
+                game.Players:Chat("shield/all/all/all")
+                game.Players:Chat("normal/all/all/all")
+                game.Players:Chat("rocket/all/all/all")
+                game.Players:Chat("normal/all/all/all")
+                game.Players:Chat("shield/all/all/all")
+                game.Players:Chat("rocket/all/all/all")
+                end
+                game.Players:Chat("ff/all")
+                game.Players:Chat("explode/all/all/all")
+                game.Players:Chat("tp/all/me")
+                for i = 1,200 do
+                game.Players:Chat("shield/all/all/all")
+                game.Players:Chat("rocket/all/all/all")
+                game.Players:Chat("shield/all/all/all")
+                game.Players:Chat("rocket/all/all/all")
+                game.Players:Chat("normal/all/all/all")
+                game.Players:Chat("normal/all/all/all")
+                game.Players:Chat("shield/all/all/all")
+                game.Players:Chat("rocket/all/all/all")
+                game.Players:Chat("shield/all/all/all")
+                game.Players:Chat("rocket/all/all/all")
+                end
             end
             )
 
