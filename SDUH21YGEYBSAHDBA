@@ -3335,8 +3335,12 @@ newcmd("sdisco",{},function()
     end)
 
 newcmd("rbackwall",{},function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-145.78, 5.17, 26.58)
     moveObject(game:GetService("Workspace").Terrain["_Game"].Workspace["Obby Box"]["Back Wall"],CFrame.new(-145.78, 5.17, 26.58))
     moveObject(game:GetService("Workspace").Terrain["_Game"].Workspace["Obby Box"]["Back Wall"],CFrame.new(-145.78, 5.17, 26.58))
+wait(.39)
+game.Players:Chat("respawn me")
+wait(.90)
 end)
 
 newcmd("theme",{},function()
