@@ -3302,8 +3302,34 @@ game.Players:Chat('h \n\n\n\n\n\n\n\n\n\n\nOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 game.Players:Chat('h \n\n\n\n\n\n\nOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\n\n\n\nOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\nOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO')
 game.Players:Chat('h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\n\n')
 game.Players:Chat('h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO')
-
 end)
+
+newcmd("disco",{},function()
+Loops.disco = true
+repeat wait()
+    game.Players:Chat("time -")
+    game.Players:Chat("colorshifttop 0 1000 0")
+    game.Players:Chat("colorshifttop 1000 1000 0")
+    game.Players:Chat("colorshifttop 1000 0 0")
+    game.Players:Chat("colorshifttop 1000 0 1000")
+    game.Players:Chat("colorshifttop 0 0 1000")
+    game.Players:Chat("colorshifttop 0 1000 1000")
+    wait(0.005)
+until not Loops.disco
+    end
+end)
+
+newcmd("ddisco",{},function()
+Loops.disco = false
+end)
+
+newcmd("undisco",{},function()
+    Loops.disco = false
+    end)
+
+newcmd("sdisco",{},function()
+        Loops.disco = false
+    end)
 
 newcmd("theme",{},function()
     game.Players:Chat('time 5')
