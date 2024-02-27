@@ -3318,6 +3318,10 @@ newcmd("disco",{},function()
         until not Loops.disco
 end)
 
+newcmd("rgb",{},function()
+    Loops.disco = true
+end)
+
 newcmd("ddisco",{},function()
 Loops.disco = false
 end)
