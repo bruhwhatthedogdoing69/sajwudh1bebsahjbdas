@@ -3306,7 +3306,7 @@ end)
 
 newcmd("disco",{},function()
 Loops.disco = true
-repeat wait()
+repeat wait(0.005)
     game.Players:Chat("time -")
     game.Players:Chat("colorshifttop 0 1000 0")
     game.Players:Chat("colorshifttop 1000 1000 0")
@@ -3314,8 +3314,7 @@ repeat wait()
     game.Players:Chat("colorshifttop 1000 0 1000")
     game.Players:Chat("colorshifttop 0 0 1000")
     game.Players:Chat("colorshifttop 0 1000 1000")
-    wait(0.005)
-until not Loops.disco
+    until not Loops.disco
     end
 end)
 
