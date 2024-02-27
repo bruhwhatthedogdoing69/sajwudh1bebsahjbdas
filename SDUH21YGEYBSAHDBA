@@ -3330,6 +3330,11 @@ newcmd("sdisco",{},function()
         Loops.disco = false
     end)
 
+newcmd("rbackwall",{},function()
+    moveObject(game:GetService("Workspace").Terrain["_Game"].Workspace["Obby Box"]["Back Wall"],CFrame.new(-145.78, 5.17, 26.58))
+    moveObject(game:GetService("Workspace").Terrain["_Game"].Workspace["Obby Box"]["Back Wall"],CFrame.new(-145.78, 5.17, 26.58))
+end)
+
 newcmd("theme",{},function()
     game.Players:Chat('time 5')
     game.Players:Chat('ambient 100 0 255')
