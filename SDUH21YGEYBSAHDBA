@@ -2472,6 +2472,7 @@ else
     game.Players:Chat("tp "..v.Name.." me")
     game.Players:Chat("ungear me")
 end
+end
 end)
 
 newcmd("stone",{},function()
