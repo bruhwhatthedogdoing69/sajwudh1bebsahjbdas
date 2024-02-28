@@ -527,7 +527,6 @@ end)
 		spawn(function()
 			colorAPI.colorPads(colorAPI.transformToColor3(BrickColor.new("Institutional white")))
 		end)
-        colorAPI.color(game.Workspace.Terrain["_Game"].Admin["Regen"], colorAPI.transformToColor3(RegenColor.new("Institutional white")))
         wait(0.6)
 game.Players:Chat("ungear me")
 --nil
