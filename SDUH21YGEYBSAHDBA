@@ -9,8 +9,6 @@ local Settings = {
 repeat wait() until game:IsLoaded()
 if game.PlaceId ~= 112420803 then return end
 
-print("123")
-
 local loadtime = os.clock()
 local owner = game.Players.LocalPlayer
 local player = owner
@@ -2451,6 +2449,8 @@ else
     lp.Character.StatueStaffOfStonyJustice.Remote:FireServer(Enum.KeyCode.X)
     wait(5)
     game.Players:Chat("ungear me")
+    end
+    end
 end)
 
 newcmd("border",{},function()
