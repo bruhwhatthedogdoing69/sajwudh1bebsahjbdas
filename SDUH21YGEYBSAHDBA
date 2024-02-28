@@ -2428,31 +2428,31 @@ local Bloxy = nil
     end
 end)
 
-newcmd("ungb",{"player"},function(args)
+newcmd("ungban",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
     if game.Players.LocalPlayer.Backpack:FindFirstChild("DaggerOfShatteredDimensions") then
     game.Players.LocalPlayer.Backpack:FindFirstChild("DaggerOfShatteredDimensions").Parent = game.Players.LocalPlayer.Character
-    wait(0.005)
+    wait(0.010)
     local args = {
         [1] = Enum.KeyCode.Q
     }
     
     game:GetService("Players").LocalPlayer.Character.DaggerOfShatteredDimensions.Remote:FireServer(unpack(args))
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-482.402496, 3.69999933, -483.656372, -0.69966048, -6.97966627e-08, -0714475453, -8.5245567e-08, 1, -1.42114089e-08, 0.714475453, 5.09627078e-08, -0.69966048))
-    wait(0.005)
+    wait(0.010)
     game.Players:Chat("unff "..v.Name)
     game.Players:Chat("tp "..v.Name.." me")
     game.Players:Chat("ungear me")
 elseif game.Players.LocalPlayer.Character:FindFirstChild("DaggerOfShatteredDimensions") then
-    wait(0.005)
+    wait(0.010)
     local args = {
         [1] = Enum.KeyCode.Q
     }
     
     game:GetService("Players").LocalPlayer.Character.DaggerOfShatteredDimensions.Remote:FireServer(unpack(args))
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-482.402496, 3.69999933, -483.656372, -0.69966048, -6.97966627e-08, -0714475453, -8.5245567e-08, 1, -1.42114089e-08, 0.714475453, 5.09627078e-08, -0.69966048))
-    wait(0.005)
+    wait(0.010)
     game.Players:Chat("unff "..v.Name)
     game.Players:Chat("tp "..v.Name.." me")
     game.Players:Chat("ungear me")
@@ -2467,7 +2467,7 @@ else
     
     game:GetService("Players").LocalPlayer.Character.DaggerOfShatteredDimensions.Remote:FireServer(unpack(args))
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-482.402496, 3.69999933, -483.656372, -0.69966048, -6.97966627e-08, -0714475453, -8.5245567e-08, 1, -1.42114089e-08, 0.714475453, 5.09627078e-08, -0.69966048))
-    wait(0.005)
+    wait(0.010)
     game.Players:Chat("unff "..v.Name)
     game.Players:Chat("tp "..v.Name.." me")
     game.Players:Chat("ungear me")
@@ -2489,7 +2489,7 @@ if game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice")
     wait(5)
     game.Players:Chat("ungear me")
 elseif game.Players.LocalPlayer.Character:FindFirstChild("StatueStaffOfStonyJustice") then
-    wait(0.005)
+    wait(.23)
     local args = {
         [1] = "KeyPress",
         [2] = {
@@ -2503,9 +2503,9 @@ else
     game.Players:Chat("gear me 0000000000000000000000000000000000000000000000000000000000000059190534")
     game.Players:Chat("gear me 0000000000000000000000000000000000000000000000000000000000000059190534")
     repeat wait() until game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice")
-    wait(.23)
-    game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice").Parent = game.Players.LocalPlayer.Character
     wait(.5)
+    game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice").Parent = game.Players.LocalPlayer.Character
+    wait(1)
     local args = {
         [1] = "KeyPress",
         [2] = {
