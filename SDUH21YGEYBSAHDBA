@@ -5706,42 +5706,30 @@ end)
 newcmd("stone",{},function()
 if game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice") then
    game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice").Parent = game.Players.LocalPlayer.Character
-    wait(1)
-    local args = {
-        [1] = "KeyPress",
-        [2] = {
-            ["Key"] = "x",
-            ["Down"] = true
-        }
-    }
-    wait(5)
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-79.60, 5.18, -6.95)
+    wait(.23)
+    lp.Character.StatueStaffOfStonyJustice.Remote:FireServer(Enum.KeyCode.x)
+    wait(7)
+    game.Players:Chat("clear")
     game.Players:Chat("ungear me")
 elseif game.Players.LocalPlayer.Character:FindFirstChild("StatueStaffOfStonyJustice") then
-    wait(1)
-    local args = {
-        [1] = "KeyPress",
-        [2] = {
-            ["Key"] = "x",
-            ["Down"] = true
-        }
-    }
-    wait(5)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-79.60, 5.18, -6.95)
+    wait(.23)
+    lp.Character.StatueStaffOfStonyJustice.Remote:FireServer(Enum.KeyCode.x)
+    wait(7)
+    game.Players:Chat("clear")
     game.Players:Chat("ungear me")
 else 
     game.Players:Chat("gear me 0000000000000000000000000000000000000000000000000000000000000059190534")
     game.Players:Chat("gear me 0000000000000000000000000000000000000000000000000000000000000059190534")
     repeat wait() until game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice")
-    wait(1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-79.60, 5.18, -6.95)
+    wait(.5)
     game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice").Parent = game.Players.LocalPlayer.Character
-    wait(2)
-    local args = {
-        [1] = "KeyPress",
-        [2] = {
-            ["Key"] = "x",
-            ["Down"] = true
-        }
-    }
-    wait(5)
+    wait(.23)
+    lp.Character.StatueStaffOfStonyJustice.Remote:FireServer(Enum.KeyCode.x)
+    wait(7)
+    game.Players:Chat("clear")
     game.Players:Chat("ungear me")
 end
 end)
