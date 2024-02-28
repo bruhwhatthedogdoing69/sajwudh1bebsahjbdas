@@ -6765,7 +6765,6 @@ newcmd("theme",{},function()
             game.Players:Chat('unsize me')
             game.Players:Chat('unsize me')
             end
-            wait(1)
                 for i = 1,150 do
                 game.Players:Chat("shield/all/all/all")
                 game.Players:Chat("rocket/all/all/all")
@@ -6795,8 +6794,14 @@ newcmd("theme",{},function()
             end
             )
 
-            newcmd("backupcrashtest",{},function()
-            game.Players:Chat('h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[SHUTDOWN]\n\nvgcrash was bypassed / failed, initiating backup crash.\n\nguns.lol/cxo\n____________\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[SHUTDOWN]\n\nvgcrash was bypassed / failed, initiating backup crash.\n\nguns.lol/cxo\n____________\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[SHUTDOWN]\n\nvgcrash was bypassed / failed, initiating backup crash.\n\nguns.lol/cxo\n____________')
+            newcmd("cxocrash",{},function()
+                game.Players:Chat(":char others 3222470105")
+                game.Players:Chat(":music 9124780123")
+                game.Players:Chat("h/server pooped by the TRUE and HONEST cxo crash")
+                task.wait(0.3)
+                for i = 1,128 do
+                game.Players:Chat(":dog all all all")
+                game.Players:Chat(":clone all all all")
             end)
 
             newcmd("dcrash",{},function()
@@ -6810,11 +6815,11 @@ newcmd("theme",{},function()
                 game.Players:Chat('h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOL YOU JUST GOT CRASHED\n________________________\n\n[guns.lol/cxo]')
                 game.Players:Chat('music 0000000000000000000000000000000000000000000006841685130')
                 wait(0.05)
-for i = 1,128 do
-game.Players:Chat("dog all all all")
-game.Players:Chat("clone all all all")
-end
-end)
+                for i = 1,128 do
+                game.Players:Chat("dog all all all")
+                game.Players:Chat("clone all all all")
+                end
+                end)
 
                 newcmd("wlcrash",{},function()
                     game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[guns.lol/cxo]")
@@ -7241,6 +7246,15 @@ newcmd("owner",{"player"},function(args)
         game.Players:Chat("tp "..v.Name.." me")
     end
 end)        
+
+newcmd("cxo",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+        game.Players:Chat("char "..v.Name.." 3222470105")
+        task.wait (.23)
+        game.Players:Chat("tp "..v.Name.." me")
+    end
+end)    
 
 newcmd("chimney",{"player"},function(args)
     local Player = GetPlayers(args[1])
