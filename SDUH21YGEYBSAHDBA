@@ -1035,6 +1035,9 @@ newcmd("fp",{},function()
             RR = colorAPI.transformToColor3(BrickColor.new("Really red"))
         })
     end)
+
+    colorAPI.color(game.Workspace.Terrain["_Game"].Admin["Regen"], colorAPI.transformToColor3(BrickColor.new("Bright violet")))
+
             colorAPI.color(game.Workspace.Terrain["_Game"].Workspace["Baseplate"], colorAPI.transformToColor3(BrickColor.new("Bright green")))
             task.spawn(function()
                 colorAPI.colorObbyBox(colorAPI.transformToColor3(BrickColor.new("Teal")))
@@ -2415,9 +2418,9 @@ local Bloxy = nil
         tool.Parent = game.Players.LocalPlayer.Character
         Bloxy = tool
     end
-    wait(0.02)
+    wait(0.05)
     Bloxy:Activate()
-    wait(0.02)
+    wait(0.05)
     for i,v in pairs(game:GetService("Workspace").Terrain["_Game"]:GetDescendants()) do
         if v:IsA("BasePart") then
             firetouchinterest(v,Bloxy.Handle,0)
@@ -2426,32 +2429,27 @@ local Bloxy = nil
     end
 end)
 
-
-newcmd("glass",{},function()
-local Staff = nil
-    if game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice") then
-        local tool = game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice")
-        tool.Parent = game.Players.LocalPlayer.Character
-        Staff = tool
-    elseif game.Players.LocalPlayer.Character:FindFirstChild("StatueStaffOfStonyJustice") then
-        Staff = tool
-    else
-        game.Players:Chat("gear me 0000000000000000000000000000000000000000000059190534")
-        game.Players:Chat("gear me 0000000000000000000000000000000000000000000059190534")
-        repeat wait() until game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice")
-        local tool = game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice")
-        tool.Parent = game.Players.LocalPlayer.Character
-        Staff = tool
-        game.Players:Chat("-equiptools")
-    end
-    wait(0.2)
-    Staff:Activate()
-    wait(0.2)
-    for i,v in pairs(game:GetService("Workspace").Terrain["_Game"]:GetDescendants()) do
-        if v:IsA("BasePart") then
-            firetouchinterest(v,Staff.Handle,0)
-            firetouchinterest(v,Staff.Handle,1)
-        end
+newcmd("stone",{},function()
+if game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice")
+   game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice").Parent = game.Players.LocalPlayer.Character
+    wait(0.005)
+    lp.Character.StatueStaffOfStonyJustice.Remote:FireServer(Enum.KeyCode.X)
+    wait(5)
+    game.Players:Chat("ungear me")
+elseif game.Players.LocalPlayer.Character:FindFirstChild("StatueStaffOfStonyJustice")
+    wait(0.005)
+    lp.Character.StatueStaffOfStonyJustice.Remote:FireServer(Enum.KeyCode.X)
+    wait(5)
+    game.Players:Chat("ungear me")
+else 
+    game.Players:Chat("gear me 0000000000000000000000000000000000000000000000000000000000000059190534")
+    game.Players:Chat("gear me 0000000000000000000000000000000000000000000000000000000000000059190534")
+    repeat wait() until game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice")
+    game.Players.LocalPlayer.Backpack:FindFirstChild("StatueStaffOfStonyJustice").Parent = game.Players.LocalPlayer.Character
+    wait(0.005)
+    lp.Character.StatueStaffOfStonyJustice.Remote:FireServer(Enum.KeyCode.X)
+    wait(5)
+    game.Players:Chat("ungear me")
     end
 end)
 
