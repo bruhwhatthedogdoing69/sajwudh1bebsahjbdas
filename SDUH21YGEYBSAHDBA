@@ -5462,9 +5462,6 @@ end)
 newcmd("antis",{},function()
     Loops.antiabuse = true
     repeat game:GetService("RunService").RenderStepped:Wait() pcall(function()
-        if chr and chr.Parent ~= workspace then
-            game.Players:Chat("unpunish me ")
-        end
         if lp.PlayerGui:FindFirstChild("EFFECTGUIBLIND") then
             lp.PlayerGui:FindFirstChild("EFFECTGUIBLIND"):Destroy()
             game.Players:Chat("unblind me")
