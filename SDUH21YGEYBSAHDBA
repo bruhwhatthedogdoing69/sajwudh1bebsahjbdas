@@ -9,6 +9,8 @@ local Settings = {
 repeat wait() until game:IsLoaded()
 if game.PlaceId ~= 112420803 then return end
 
+print("123")
+
 local loadtime = os.clock()
 local owner = game.Players.LocalPlayer
 local player = owner
@@ -1036,8 +1038,7 @@ newcmd("fp",{},function()
         })
     end)
 
-    colorAPI.color(game.Workspace.Terrain["_Game"].Admin["Regen"], colorAPI.transformToColor3(BrickColor.new("Bright violet")))
-
+            colorAPI.color(game.Workspace.Terrain["_Game"].Admin["Regen"], colorAPI.transformToColor3(BrickColor.new("Bright violet")))
             colorAPI.color(game.Workspace.Terrain["_Game"].Workspace["Baseplate"], colorAPI.transformToColor3(BrickColor.new("Bright green")))
             task.spawn(function()
                 colorAPI.colorObbyBox(colorAPI.transformToColor3(BrickColor.new("Teal")))
@@ -2450,7 +2451,6 @@ else
     lp.Character.StatueStaffOfStonyJustice.Remote:FireServer(Enum.KeyCode.X)
     wait(5)
     game.Players:Chat("ungear me")
-    end
 end)
 
 newcmd("border",{},function()
