@@ -6802,6 +6802,7 @@ newcmd("theme",{},function()
                 for i = 1,128 do
                 game.Players:Chat(":dog all all all")
                 game.Players:Chat(":clone all all all")
+                end
             end)
 
             newcmd("dcrash",{},function()
