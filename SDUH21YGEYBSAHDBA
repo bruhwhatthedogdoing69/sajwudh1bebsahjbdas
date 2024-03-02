@@ -250,9 +250,13 @@ newcmd("unban",{"player"},function(args)
 end)
 
 newcmd("wlcmds",{},function()
-    game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHIS SCRIPT WAS MADE BY YCXO (CXO / 3CXOS)\nPREFIX IS -\n________________________________________\n\nCOMMANDS:\nlock / unlock *player* - softlocks a player\nstop *player* - anchors a player in place\nbend / bend2 *player*\nfur / furry *player* - turns the player into a furry\nangrybird *player* - turns player into an angrybird\nsuperman *player* - turns the player into superman\nbatman *player* - turns player into batman\nnerd *player* - ??\nhorse / unicorn *player* - turns the player into a horse or unicorn\npotato *player* - turns the player into a potato\nbird *player* - turns the player into a bird\ncube *player* - turns the player into a cube\nowner / rachel / isley / aria *player* - turns the player into cxo rachel isley or aria\nchimney *player* - teleports a player to the chimney\nfixbp - fixes the baseplate\nmovebox - moves the obby box")
+    game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHIS SCRIPT WAS MADE BY YCXO (CXO / 3CXOS)\nPREFIX IS -\n________________________________________\n\nCOMMANDS:\nwlcmds2 - shows the second page of cmds\nlock / unlock *player* - softlocks a player\nstop *player* - anchors a player in place\nbend / bend2 *player*\nfur / furry *player* - turns the player into a furry\nangrybird *player* - turns player into an angrybird\nsuperman *player* - turns the player into superman\nbatman *player* - turns player into batman\nnerd *player* - 🤓\nhorse / unicorn *player* - turns the player into a horse or unicorn\npotato *player* - turns the player into a potato\nbird *player* - turns the player into a bird\ncube *player* - turns the player into a cube\ncxo / rachel / isley / aria *player* - chars the player\nchimney *player* - teleports a player to the chimney\nfixbp - fixes the baseplate\nmovebox - moves the obby box")
     game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nwlcrash - !!THIS WILL SHUT DOWN THE SERVER!!\ndcrash - dogcrashes the server !!THIS WILL SHUT THE SERVER DOWN!!\npcrash - persons crashes the server !!THIS WILL SHUT THE SERVER DOWN!!\nvgcrash - uses the vampire vanquisher to close the server !!THIS WILL SHUT THE SERVER DOWN!!\ntools *player* - gives a bunch of tools\npb *player* - gives the player a paintbucket\nbtools *player* - gives player btools\nkick *player* - kicks a player from the server\nban *player* - bans a player from the server\nregen - regens the admin pads\ntrapspawn - traps the obby box (spawnpoint)\ncl / cls - clears the logs\ncat *player* - turns player into a cat (if you see aria use this command on her)\nvending *player* turns player into a vending machine\nfridge *player* - turns player into a fridge")
     game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmovespawns - moves the spawnpoints\nfixregen - fixes the regen pad if it is located\ntemi *player* - encages the player\ngban *player* - gearbans the player\nwl / unwl *player* - allows you to whitelist / unwhitelist players\nmbc *player* - breaks a mobile players camera\ndrc - disables the right click for everyone\ngames *player* - gives a player games\nage *player* - fetches the age in days of a players roblox account\nheaven / darkness\ndie *player* - rest  in peace\nlag / dlag *player* - attempts to lag the players game\nclone *player* - attaches the player to a clone of themself")
+end)
+
+newcmd("wlcmds2",{},function()
+    game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTHIS SCRIPT WAS MADE BY YCXO (CXO / 3CXOS)\nPREFIX IS -\n________________________________________\n\nCOMMANDS:\nsit *player* - forces a player to sit down\ntech / banana / dizzy / dekryptionite / clyde / ray / slender / martin *player* - chars the player\nblack - paints the map black\nwhite - paints the map white\nred - paints the map red\n blue - paints the map blue\nlightblue - paints the map light blue\npink - paints the map pink\nlightpink - paints the map light pink\npurple - paints the map purple\nviolet - paints the map violet\nyellow - paints the map yellow\ngreen - paints the map green\ngray / grey - paints the map grey / gray\nrgb - turns the map red green blue repeatedly\nkick2 - same as kick but doesnt respawn or blind\nrbackwall - removes the back wall\nflipplate - flips the plate\nreport *player* - reports the player for spamming\ngpc *player* - gamepass checks player")
 end)
 
 newcmd("spiders",{},function()
@@ -2365,43 +2369,43 @@ game:GetService("Players"):Chat("gear me 000000000000000000000000000000000000000
 		wait(0.50)
 		coroutine.wrap(function()
 			colorAPI.colorHouse({
-				wallsC = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-				baseC = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-				roofC = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-				WANDDC = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-				stairsC = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-				floorC = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-				rooftsC = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-				chiC = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-                regenC = colorAPI.transformToColor3(BrickColor.new("New yeller"))
+				wallsC = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+				baseC = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+				roofC = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+				WANDDC = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+				stairsC = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+				floorC = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+				rooftsC = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+				chiC = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+                regenC = colorAPI.transformToColor3(BrickColor.new("New Yeller"))
 			})
 		end)()
     spawn(function()
 	colorAPI.colorBuildingBricks({
-		DarkStoneGrey = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-		DeepBlue = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-		NY = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-		IW = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-		LimeGreen = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-		MSG = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-		RB = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-		TP = colorAPI.transformToColor3(BrickColor.new("New yeller")),
-		RR = colorAPI.transformToColor3(BrickColor.new("New yeller"))
+		DarkStoneGrey = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+		DeepBlue = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+		NY = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+		IW = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+		LimeGreen = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+		MSG = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+		RB = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+		TP = colorAPI.transformToColor3(BrickColor.new("New Yeller")),
+		RR = colorAPI.transformToColor3(BrickColor.new("New Yeller"))
 	})
 end)
-        colorAPI.color(game.Workspace.Terrain["_Game"].Admin["Regen"], colorAPI.transformToColor3(BrickColor.new("New yeller")))
-		colorAPI.color(game.Workspace.Terrain["_Game"].Workspace["Baseplate"], colorAPI.transformToColor3(BrickColor.new("New yeller")))
+        colorAPI.color(game.Workspace.Terrain["_Game"].Admin["Regen"], colorAPI.transformToColor3(BrickColor.new("New Yeller")))
+		colorAPI.color(game.Workspace.Terrain["_Game"].Workspace["Baseplate"], colorAPI.transformToColor3(BrickColor.new("New Yeller")))
 		spawn(function()
-			colorAPI.colorObbyBox(colorAPI.transformToColor3(BrickColor.new("New yeller")))
+			colorAPI.colorObbyBox(colorAPI.transformToColor3(BrickColor.new("New Yeller")))
 		end)
 		spawn(function()
-			colorAPI.colorObbyBricks(colorAPI.transformToColor3(BrickColor.new("New yeller")))
+			colorAPI.colorObbyBricks(colorAPI.transformToColor3(BrickColor.new("New Yeller")))
 		end)
 		spawn(function()
-			colorAPI.colorAdminDivs(colorAPI.transformToColor3(BrickColor.new("New yeller")))
+			colorAPI.colorAdminDivs(colorAPI.transformToColor3(BrickColor.new("New Yeller")))
 		end)
 		spawn(function()
-			colorAPI.colorPads(colorAPI.transformToColor3(BrickColor.new("New yeller")))
+			colorAPI.colorPads(colorAPI.transformToColor3(BrickColor.new("New Yeller")))
 		end)
         wait(0.6)
 game.Players:Chat("ungear me")
@@ -5150,7 +5154,7 @@ local v1 = "PaintPart"
 						local v19 =
 							{
 								["Part"] = v,
-								["Color"] = transformToColor3(BrickColor.new("New yeller"))
+								["Color"] = transformToColor3(BrickColor.new("New Yeller"))
 							}
 						remote:InvokeServer(v1, v19)
 					end
@@ -5239,15 +5243,6 @@ newcmd("sky",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
         game.Players:Chat("char "..v.Name.." 0000000000000000000000000000137072437")  
-        task.wait(.23) 
-        game.Players:Chat("tp "..v.Name.." me")  
-end
-end)
-
-newcmd("svko",{"player"},function(args)
-    local Player = GetPlayers(args[1])
-    for i,v in pairs(Player) do
-        game.Players:Chat("char "..v.Name.." 00000000000000000000000000004038884688")  
         task.wait(.23) 
         game.Players:Chat("tp "..v.Name.." me")  
 end
@@ -5433,6 +5428,38 @@ game.Players:Chat("tp "..v.Name.." "..v.Name)
 game.Players:Chat("sit "..v.Name)
 end
 end)
+
+newcmd("suck",{"player"},function(args)
+	local Player = GetPlayers(args[1])
+	for i,v in pairs(Player) do
+	game.Players:Chat("sit "..v.Name)
+    task.wait(0.75)
+	game.Players:Chat("freeze "..v.Name)
+	task.wait(0.25)
+    game.Players:Chat("name "..v.Name.. " "..v.DisplayName)
+    task.wait(0.30)
+    game.Players:Chat("thaw "..v.Name)
+	game.Players:Chat("jump "..v.Name)
+	task.wait()
+	game.Players:Chat("sit "..v.Name)
+	end
+	end)
+
+	newcmd("sit",{"player"},function(args)
+		local Player = GetPlayers(args[1])
+		for i,v in pairs(Player) do
+		game.Players:Chat("sit "..v.Name)
+		task.wait(0.75)
+		game.Players:Chat("freeze "..v.Name)
+		task.wait(0.25)
+		game.Players:Chat("name "..v.Name.. " "..v.DisplayName)
+		task.wait(0.30)
+		game.Players:Chat("thaw "..v.Name)
+		game.Players:Chat("jump "..v.Name)
+		task.wait()
+		game.Players:Chat("sit "..v.Name)
+		end
+		end)
 
 newcmd("btools",{"player"},function(args)
     local Player = GetPlayers(args[1])
@@ -6347,15 +6374,88 @@ newcmd("wlaSSOHMYGODBIGEBONYASS",{},function()
                 
 end)
 
+function checkGamepass(Target,ID)
+    local data = game:GetService("HttpService"):JSONDecode(game:HttpGetAsync('https://inventory.roblox.com/v1/users/'..Target.UserId..'/items/GamePass/'..ID)).data
+    
+    if data then
+        if #data > 0 then
+            return "200"
+        else
+            return "403"
+        end
+    else
+        print("Error")
+        return "404"
+    end
+end
+
+newcmd("gamepasscheck",{"player"},function(args)
+	for i,v in pairs(GetPlayers(args[1])) do
+		local has = checkGamepass(v,66254)
+		local hass = checkGamepass(v,35748)
+		game.Players:Chat("h \n\n\n\n\n\n"..v.Name..":")
+		if has == "200" then
+		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: True")
+	else
+		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: False")
+		if hass == "200" then
+		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: True")
+	else
+		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: False")
+		end
+	end
+end)
+
+newcmd("gpc",{"player"},function(args)
+	for i,v in pairs(GetPlayers(args[1])) do
+		local has = checkGamepass(v,66254)
+		local hass = checkGamepass(v,35748)
+		game.Players:Chat("h \n\n\n\n\n\n"..v.Name..":")
+		if has == "200" then
+		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: True")
+	else
+		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: False")
+		if hass == "200" then
+		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: True")
+	else
+		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: False")
+		end
+	end
+end)
+
+newcmd("gpcheck",{"player"},function(args)
+	for i,v in pairs(GetPlayers(args[1])) do
+		local has = checkGamepass(v,66254)
+		local hass = checkGamepass(v,35748)
+		game.Players:Chat("h \n\n\n\n\n\n"..v.Name..":")
+		if has == "200" then
+		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: True")
+	else
+		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: False")
+		if hass == "200" then
+		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: True")
+	else
+		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: False")
+		end
+	end
+end)
+
 newcmd("flipplate",{},function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-69.13, 5.65, 14.50)
-    game.Players:Chat("sit me")
-    task.wait(.93)
-    game.Players:Chat("unpunish me")
-    task.wait(.34)
-    game.Players:Chat("trip me")
-    task.wait(.23)
-    game.Players:Chat("respawn me")
+	game.Players:Chat("sit me")
+	wait(0.75)
+	game.Players:Chat("unpunish me")
+	wait()
+	game.Players:Chat("trip me")
+	wait(0.2)
+	game.Players:Chat("respawn me")
+	end)
+	
+newcmd("report",{"player"},function(args)
+	local Player = GetPlayers(args[1])
+	for i,v in pairs(Player) do
+	game.Players:ReportAbuse(..v.Name.., "Swearing", "spamming chat")
+	game.Players:Chat("h \n\n\n\n\n\nReported "..v.Name.." for spamming\n\nif player spammed they will be logged out any second now")
 end)
 
 newcmd("mbc",{"player"},function(args)
@@ -6363,33 +6463,33 @@ newcmd("mbc",{"player"},function(args)
     for i,v in pairs(Player) do
     game.Players:Chat("refresh "..v.Name)
     game.Players:Chat("ungear me ")
-game.Players:Chat("gear me 000000000000000000000000000000074385399")
-game.Players:Chat("gear me 000000000000000000000000000000074385399")
-game.Players:Chat("gear me 000000000000000000000000000000074385399")
-task.wait(.5)
+	game.Players:Chat("gear me 000000000000000000000000000000074385399")
+	game.Players:Chat("gear me 000000000000000000000000000000074385399")
+	game.Players:Chat("gear me 000000000000000000000000000000074385399")
+	task.wait(.5)
     game.Players:Chat("speed "..v.Name.." nil")
     game.Players:Chat("setgrav "..v.Name.." 3000")
     local Character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
-if Character then
+	if Character then
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-79.60, 5.18, -6.95)
-end
-task.wait(.5)
+	end
+	task.wait(.5)
     game.Players:Chat("tp "..v.Name.." me")
     game.Players:Chat("tp "..v.Name.." me")
     game.Players:Chat("freeze "..v.Name)
     game.Players:Chat("rainbowify "..v.Name)
     local Character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
-if Character then
+	if Character then
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-79.61, 5.20, -0.41)
-game.Players:Chat("speed "..v.Name.." nil")
-game.Players:Chat("setgrav "..v.Name.." 3000")
-task.wait(1)
-game.Players:Chat("-droptools")
-task.wait(.5)
-game.Players:Chat("refresh "..v.Name)
-end
-end
-end)
+	game.Players:Chat("speed "..v.Name.." nil")
+	game.Players:Chat("setgrav "..v.Name.." 3000")
+	task.wait(1)
+	game.Players:Chat("-droptools")
+	task.wait(.5)
+	game.Players:Chat("refresh "..v.Name)
+	end
+	end
+	end)
 
 newcmd("agui",{"player"},function(args)
 local Player = GetPlayers(args[1])
@@ -6864,8 +6964,23 @@ newcmd("theme",{},function()
 
 newcmd("welcome",{},function()
 game.Players.ChildAdded:Connect(function(player)
+	if table.find(wl,player.Name) then
+	wait(1)
+	game.Players:Chat("h \n\n\n\n\n\n\n Whitelisted user "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
+	else
 wait(1)
 game.Players:Chat("h \n\n\n\n\n\n\n "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
+local has = checkGamepass(player,66254)
+local hass = checkGamepass(player,35748)
+if has == "200" then
+game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\nPerm admin: True")
+else
+	game.Players:Chat("h \n\n\n\n\n\n\n\n\nPerm admin: False")
+if hass == "200" then
+	game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPersons admin: True")
+else
+	game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPersons admin: False")
+end
 end)
 end)
 
@@ -6983,6 +7098,8 @@ Loops.rk2 = false
 Loops.rk2 = false
 end
 end)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-31.0896435, 8.22999859, 70.522644, -0.999961913, 1.84234157e-08, -0.0087288795, 1.85983779e-08, 1, -1.9962954e-08, 0.0087288795, -2.01245349e-08, -0.999961913 )--Cords inside brackets
 
 mouse.KeyDown:connect(function(key)
 if key == fly then
@@ -7864,6 +7981,8 @@ end
 end)until not Loops.ark
 end)
 
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68.9245224, 12.0999975, 11.9516468, 0.0110014183, -6.44549019e-08, -0.999939501, 6.79588652e-09, 1, -6.43840323e-08, 0.999939501, -6.08715967e-09, 0.0110014183)--Cords inside brackets
+
 newcmd("rocket",{},function()
 Loops.ark = false
 end)
@@ -7876,7 +7995,7 @@ local function PlayerAdded(Player)
     spawn(function()
         repeat wait() until Player and Player.Name
         if table.find(wl,Player.Name) then
-            game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\nwhitelisted user "..Player.Name.." has joined!\nsay -wlcmds to view a list of cmds.")
+            print("whitelisted user joined.")
             end
         
         if table.find(Banned,Player.Name) then
