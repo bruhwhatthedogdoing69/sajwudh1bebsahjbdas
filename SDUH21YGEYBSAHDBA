@@ -6936,6 +6936,95 @@ newcmd("theme",{},function()
             end
             )
 
+            newcmd("9jncrash",{},function()
+            game.Players:Chat("fogend ")
+            game.Players:Chat("fogcolor 255 0 0 ")
+            game.Players:Chat("brightness nan")
+            game.Players:Chat("music 0000000000000000000000000000000000000000000000000007014573768")
+            task.wait(0.3)
+            game.Players:Chat([[h/
+
+
+
+
+
+
+
+
+guns.lol/9jn
+guns.lol/9jn
+guns.lol/9jn
+
+
+
+
+
+
+
+guns.lol/9jn
+guns.lol/9jn
+guns.lol/9jn
+
+
+
+
+
+
+
+guns.lol/9jn
+guns.lol/9jn
+guns.lol/9jn
+
+
+
+
+
+
+
+guns.lol/9jn
+guns.lol/9jn
+guns.lol/9jn
+
+
+
+
+
+
+
+guns.lol/9jn
+guns.lol/9jn
+guns.lol/9jn
+           
+]])
+
+for i = 1,150 do
+    game.Players:Chat("shield/all/all/all")
+    game.Players:Chat("rocket/all/all/all")
+    game.Players:Chat("normal/all/all/all")
+    game.Players:Chat("shield/all/all/all")
+    game.Players:Chat("normal/all/all/all")
+    game.Players:Chat("rocket/all/all/all")
+    game.Players:Chat("normal/all/all/all")
+    game.Players:Chat("shield/all/all/all")
+    game.Players:Chat("rocket/all/all/all")
+    end
+    game.Players:Chat("ff/all")
+    game.Players:Chat("explode/all/all/all")
+    game.Players:Chat("tp/all/me")
+    for i = 1,200 do
+    game.Players:Chat("shield/all/all/all")
+    game.Players:Chat("rocket/all/all/all")
+    game.Players:Chat("shield/all/all/all")
+    game.Players:Chat("rocket/all/all/all")
+    game.Players:Chat("normal/all/all/all")
+    game.Players:Chat("normal/all/all/all")
+    game.Players:Chat("shield/all/all/all")
+    game.Players:Chat("rocket/all/all/all")
+    game.Players:Chat("shield/all/all/all")
+    game.Players:Chat("rocket/all/all/all")
+    end
+end)
+
             newcmd("cxocrash",{},function()
                 game.Players:Chat(":char others 3222470105")
                 game.Players:Chat(":music 9124780123")
