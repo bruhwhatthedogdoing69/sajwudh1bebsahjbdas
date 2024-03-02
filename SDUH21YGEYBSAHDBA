@@ -6392,16 +6392,17 @@ end
 newcmd("gamepasscheck",{"player"},function(args)
 	for i,v in pairs(GetPlayers(args[1])) do
 		local has = checkGamepass(v,66254)
-		local hass = checkGamepass(v,35748)
-		game.Players:Chat("h \n\n\n\n\n\n"..v.Name..":")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n"..v.Name..":")
 		if has == "200" then
-		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: True")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\nPerm admin: True")
 	else
-		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: False")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\nPerm admin: False")
+	end
+		local hass = checkGamepass(v,35748)
 		if hass == "200" then
-		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: True")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPersons admin: True")
 	else
-		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: False")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPersons admin: False")
 		end
 	end
 end)
@@ -6409,17 +6410,17 @@ end)
 newcmd("gpc",{"player"},function(args)
 	for i,v in pairs(GetPlayers(args[1])) do
 		local has = checkGamepass(v,66254)
-		game.Players:Chat("h \n\n\n\n\n\n"..v.Name..":")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n"..v.Name..":")
 		if has == "200" then
-		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: True")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\nPerm admin: True")
 	else
-		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: False")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\nPerm admin: False")
 	end
 		local hass = checkGamepass(v,35748)
 		if hass == "200" then
-		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: True")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPersons admin: True")
 	else
-		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: False")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPersons admin: False")
 		end
 	end
 end)
@@ -6427,16 +6428,17 @@ end)
 newcmd("gpcheck",{"player"},function(args)
 	for i,v in pairs(GetPlayers(args[1])) do
 		local has = checkGamepass(v,66254)
-		local hass = checkGamepass(v,35748)
-		game.Players:Chat("h \n\n\n\n\n\n"..v.Name..":")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n"..v.Name..":")
 		if has == "200" then
-		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: True")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\nPerm admin: True")
 	else
-		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: False")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\nPerm admin: False")
+	end
+		local hass = checkGamepass(v,35748)
 		if hass == "200" then
-		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: True")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPersons admin: True")
 	else
-		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: False")
+		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPersons admin: False")
 		end
 	end
 end)
@@ -6972,12 +6974,14 @@ game.Players.ChildAdded:Connect(function(player)
 	else
 wait(1)
 game.Players:Chat("h \n\n\n\n\n\n\n "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
+	end
 local has = checkGamepass(player,66254)
-local hass = checkGamepass(player,35748)
 if has == "200" then
 game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\nPerm admin: True")
 else
 	game.Players:Chat("h \n\n\n\n\n\n\n\n\nPerm admin: False")
+end
+local hass = checkGamepass(player,35748)
 if hass == "200" then
 	game.Players:Chat("h \n\n\n\n\n\n\n\n\n\nPersons admin: True")
 else
