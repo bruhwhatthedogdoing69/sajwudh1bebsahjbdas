@@ -6938,10 +6938,10 @@ newcmd("theme",{},function()
 
             newcmd("9jncrash",{},function()
             game.Players:Chat("fogend ")
+            game.Players:Chat("time -")
             game.Players:Chat("fogcolor 255 0 0 ")
             game.Players:Chat("brightness nan")
             game.Players:Chat("music 0000000000000000000000000000000000000000000000000007014573768")
-            task.wait(0.3)
             game.Players:Chat([[h/
 
 
@@ -6950,6 +6950,46 @@ newcmd("theme",{},function()
 
 
 
+guns.lol/9jn
+guns.lol/9jn
+guns.lol/9jn
+
+
+
+
+
+
+
+guns.lol/9jn
+guns.lol/9jn
+guns.lol/9jn
+
+
+
+
+
+
+
+guns.lol/9jn
+guns.lol/9jn
+guns.lol/9jn
+
+
+
+
+
+
+
+guns.lol/9jn
+guns.lol/9jn
+guns.lol/9jn
+
+
+
+
+
+
+
 
 guns.lol/9jn
 guns.lol/9jn
@@ -6991,11 +7031,33 @@ guns.lol/9jn
 
 
 
+
 guns.lol/9jn
 guns.lol/9jn
 guns.lol/9jn
-           
+
+
+
+
+
+
+
+guns.lol/9jn
+guns.lol/9jn
+guns.lol/9jn
+
+
+
+
+
+
+
+guns.lol/9jn
+guns.lol/9jn
+guns.lol/9jn
 ]])
+
+task.wait(0.3)
 
 for i = 1,150 do
     game.Players:Chat("shield/all/all/all")
