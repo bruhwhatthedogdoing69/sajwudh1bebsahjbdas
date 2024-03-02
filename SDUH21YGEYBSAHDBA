@@ -6942,6 +6942,7 @@ newcmd("theme",{},function()
             game.Players:Chat("fogcolor 255 0 0 ")
             game.Players:Chat("brightness nan")
             game.Players:Chat("music 0000000000000000000000000000000000000000000000000007014573768")
+            game.Players:Chat("name all 9jn\n[guns.lol/9jn]\n[guns.lol/9jn]\n[guns.lol/9jn]")
             game.Players:Chat([[h/
 
 
