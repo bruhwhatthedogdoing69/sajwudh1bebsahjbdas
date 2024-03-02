@@ -7027,7 +7027,6 @@ end
 else
 		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Persons admin: False")
 end
-		end
 	end)
 end)
 
