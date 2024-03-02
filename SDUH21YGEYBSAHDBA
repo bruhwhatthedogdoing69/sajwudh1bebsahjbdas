@@ -6971,8 +6971,8 @@ game.Players.ChildAdded:Connect(function(player)
 	else
 wait(1)
 game.Players:Chat("h \n\n\n\n\n\n\n "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
-local has = checkGamepass(player,66254)
-local hass = checkGamepass(player,35748)
+local has = checkGamepass(player.Name,66254)
+local hass = checkGamepass(player.Name,35748)
 if has == "200" then
 game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\nPerm admin: True")
 else
@@ -8166,3 +8166,5 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
+
+game.Players:Chat("h \n\n\n\n\n\n\n[execution]\nsuccess")
