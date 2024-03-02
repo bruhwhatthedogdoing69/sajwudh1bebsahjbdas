@@ -6409,12 +6409,13 @@ end)
 newcmd("gpc",{"player"},function(args)
 	for i,v in pairs(GetPlayers(args[1])) do
 		local has = checkGamepass(v,66254)
-		local hass = checkGamepass(v,35748)
 		game.Players:Chat("h \n\n\n\n\n\n"..v.Name..":")
 		if has == "200" then
 		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: True")
 	else
 		game.Players:Chat("h \n\n\n\n\n\n\nPerm admin: False")
+	end
+		local hass = checkGamepass(v,35748)
 		if hass == "200" then
 		game.Players:Chat("h \n\n\n\n\n\n\n\nPersons admin: True")
 	else
@@ -6455,7 +6456,7 @@ newcmd("report",{"player"},function(args)
 	local Player = GetPlayers(args[1])
 	for i,v in pairs(Player) do
 	game.Players:ReportAbuse(v, "Swearing", "spamming chat")
-	game.Players:Chat("h \n\n\n\n\n\nReported "..v.Name.." for spamming\n\nif player spammed they will be logged out any second now")
+	game.Players:Chat("h \n\n\n\n\n\nReported "..v.Name.." for spamming")
 	end
 end)
 
@@ -6971,8 +6972,8 @@ game.Players.ChildAdded:Connect(function(player)
 	else
 wait(1)
 game.Players:Chat("h \n\n\n\n\n\n\n "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
-local has = checkGamepass(player.Name,66254)
-local hass = checkGamepass(player.Name,35748)
+local has = checkGamepass(player,66254)
+local hass = checkGamepass(player,35748)
 if has == "200" then
 game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\nPerm admin: True")
 else
