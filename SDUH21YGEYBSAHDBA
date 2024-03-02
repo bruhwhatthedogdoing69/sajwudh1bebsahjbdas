@@ -6980,25 +6980,25 @@ game.Players.ChildAdded:Connect(function(player)
 wait(1)
 game.Players:Chat("h \n\n\n\n\n\n\n "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
 	end
-	local has = checkGamepass(v,66254)
+	local has = checkGamepass(player,66254)
 	if has == "200" then
 	game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n[NBC] Perm admin: True")
 else
 	game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n[NBC] Perm admin: False")
 end
-	local hass = checkGamepass(v,35748)
+	local hass = checkGamepass(player,35748)
 	if hass == "200" then
 	game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n[NBC] Persons admin: True")
 else
 	game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n[NBC] Persons admin: False")
 end
-	local hasss = checkGamepass(v,64354)
+	local hasss = checkGamepass(player,64354)
 	if hasss == "200" then
 		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Perm admin: True")
 else
 		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Perm admin: False")
 end
-	local hassss = checkGamepass(v,37127)
+	local hassss = checkGamepass(player,37127)
 	if hassss == "200" then
 		game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[BC] Persons admin: True")
 else
