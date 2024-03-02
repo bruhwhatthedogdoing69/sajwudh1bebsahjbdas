@@ -9,8 +9,6 @@ local Settings = {
 repeat wait() until game:IsLoaded()
 if game.PlaceId ~= 112420803 then return end
 
-print("abc")
-
 local loadtime = os.clock()
 local owner = game.Players.LocalPlayer
 local player = owner
@@ -6458,6 +6456,7 @@ newcmd("report",{"player"},function(args)
 	for i,v in pairs(Player) do
 	game.Players:ReportAbuse(v, "Swearing", "spamming chat")
 	game.Players:Chat("h \n\n\n\n\n\nReported "..v.Name.." for spamming\n\nif player spammed they will be logged out any second now")
+	end
 end)
 
 newcmd("mbc",{"player"},function(args)
@@ -8167,4 +8166,3 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 		end
 	end)
 end)
-print("123)
