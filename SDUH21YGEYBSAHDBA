@@ -6983,16 +6983,14 @@ plr.Chatted:Connect(function(msg)
     Loops.msg = true
 	repeat task.wait()
         for _, v in pairs(game.Players:GetPlayers()) do
-            local connection = v.Chatted:Connect(function(message)
-                if message:lower() == "pm "..antimsg then
+                if msg:lower() == "pm "..antimsg then
                         game.Players:Chat("clear")
                         game.Players:Chat("clear")
 						game.Players:Chat("clear")
 				end
-		end)
-	end
-until not Loops.msg
-end)
+		end
+	until not Loops.msg
+	end)
 
             newcmd("9jncrash",{},function()
             game.Players:Chat("fogend ")
