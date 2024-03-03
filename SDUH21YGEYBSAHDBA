@@ -7052,8 +7052,7 @@ end)
                 end
                 end)
                 
-                game:GetService("Players").LocalPlayer.Chatted:Connect(function(Message)
-                    if Message == "-silcrash" then
+                newcmd("silc",{},function()
                         game.Players:Chat("respawn all")
                         for i=1,5 do
                         game.Players:Chat('unsize all')
@@ -7079,7 +7078,6 @@ end)
                         game.Players:Chat('clone all all all')
                         game.Players:Chat("tp all me")
                         
-                    end
                     end
                     end)
 
