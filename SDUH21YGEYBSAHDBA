@@ -7150,7 +7150,7 @@ game.Players.ChildAdded:Connect(function(player)
     })
        end)
      
-game:GetService("Players").LocalPlayer:Connect(function(Message)
+game:GetService("Players").LocalPlayer.Chatted:Connect(function(Message)
     if Message == "-rwalls" then
     game.Workspace.Terrain._Game.Workspace["Obby Box"]["Left Wall"]:Destroy()
     Workspace.Terrain._Game.Workspace["Obby Box"]["Back Wall"]:Destroy()
