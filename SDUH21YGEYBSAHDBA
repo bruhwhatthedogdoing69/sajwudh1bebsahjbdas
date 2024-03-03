@@ -5570,19 +5570,21 @@ end)
 
 newcmd("novamp",{},function()
     Loops.novamp = true
-    repeat game:GetService("RunService").RenderStepped:Wait() pcall(function()
-    for i,v in pairs(game.Players:GetPlayers()) do
-            if v and v.Character and v.Character:FindFirstChild("VampireVanquisher") then v.Character:FindFirstChild("VampireVanquisher"):Destroy() game.Players:Chat("ungear "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("ungear "..v.Name)
-                game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Sorry "..v.Name.." but you arent allowed the vampire vanquisher due to protection")
+	repeat game:GetService("RunService").RenderStepped:Wait() pcall(function()
+		for i,v in pairs(game.Players:GetPlayers()) do
+			spawn(function()
+				if v and v.Character and v.Character:FindFirstChild("VampireVanquisher") then v.Character:FindFirstChild("VampireVanquisher"):Destroy() game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("ungear "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)
+					game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Sorry "..v.Name.." but you arent allowed the vampire vanquisher due to protection")
                 end
-			end
-        spawn(function()
-            if v.Backpack:FindFirstChild("VampireVanquisher") then v.Backpack:FindFirstChild("VampireVanquisher"):Destroy() game.Players:Chat("ungear "..v.Name)game.Players:Chat("ungear "..v.Name)game.Players:Chat("ungear "..v.Name)game.Players:Chat("ungear "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)
-                game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Sorry "..v.Name.." but you arent allowed the vampire vanquisher due to protection")
-        end
-    end)
-    end)until not Loops.novamp
-end)
+			end)
+			spawn(function()
+				if v.Backpack:FindFirstChild("VampireVanquisher") then v.Backpack:FindFirstChild("VampireVanquisher"):Destroy() game.Players:Chat("removetools "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)
+					game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Sorry "..v.Name.." but you arent allowed the vampire vanquisher due to protection")
+                end
+			end)
+		end
+		end)until not Loops.antiservercrash
+	end)
 
 newcmd("dnovamp",{},function()
     Loops.novamp = false
@@ -6310,7 +6312,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
             [2] = "All"
             }
             
-            game:GetService("ReplicatedStorage").DefaultSystemEvents.SayMessageRequest:FireServer(unpack(args))
+            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
         
 
     end
@@ -7121,11 +7123,11 @@ end)
         local Player = GetPlayers(args[1])
         for i,v in pairs(Player) do
             local args = {
-                [1] = ""..v.Name.."'s account age is: "..v.AccountAge.." days old",
+                [1] = ""..v.Name.."'s account age is: ["..v.AccountAge.."]",
                 [2] = "All"
                 }
                 
-                game:GetService("ReplicatedStorage").DefaultSystemEvents.SayMessageRequest:FireServer(unpack(args))
+                game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
         end
     end)
                     
@@ -7150,7 +7152,7 @@ game.Players.ChildAdded:Connect(function(player)
     })
        end)
      
-game:GetService("Players").LocalPlayer.Chatted:Connect(function(Message)
+game:GetService("Players").LocalPlayer:Connect(function(Message)
     if Message == "-rwalls" then
     game.Workspace.Terrain._Game.Workspace["Obby Box"]["Left Wall"]:Destroy()
     Workspace.Terrain._Game.Workspace["Obby Box"]["Back Wall"]:Destroy()
