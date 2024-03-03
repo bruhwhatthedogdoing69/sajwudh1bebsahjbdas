@@ -33,6 +33,7 @@ local commandlist = {}
 local Connections = {}
 local Loops = {}
 local Toolbans = {}
+local antimsg = {"3cxos", "Dekryptionite", "clydekash", "atprog", "IceStuds", "G_ODt"}
 local randomhat = {"16030226601", "15915558570", "16030189050", "15993280987", "15655243940", "15915454374", "15915462314", "20573098", "63241985", "14859292794"}
 local sk8rs = {"163491934", "20573098", "63241985", "47702745", "16412796", "139618317", "250395756", "187846511", "16101707"}
 local ServerLockedProtection = {}
@@ -6976,6 +6977,21 @@ repeat wait()
 	game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀")
 	until not Loops.logskick
 end
+end)
+
+plr.Chatted:Connect(function(msg)
+    Loops.msg = true
+	repeat task.wait()
+        for _, v in pairs(game.Players:GetPlayers()) do
+            local connection = v.Chatted:Connect(function(message)
+                if message:lower() == "pm "..antimsg then
+                        game.Players:Chat("clear")
+                        game.Players:Chat("clear")
+						game.Players:Chat("clear")
+				end
+		end)
+	end
+until not Loops.msg
 end)
 
             newcmd("9jncrash",{},function()
