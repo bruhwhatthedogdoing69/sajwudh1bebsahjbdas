@@ -518,7 +518,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -786,7 +786,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -1054,7 +1054,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -1322,7 +1322,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -1590,7 +1590,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -1858,7 +1858,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -2126,7 +2126,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -2394,7 +2394,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -2664,7 +2664,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -2932,7 +2932,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -3200,7 +3200,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -3468,7 +3468,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -3736,7 +3736,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -4004,7 +4004,7 @@ end)
  
 -------------------------------------------------------------------- BASIC API STUFF HERE --------------------------------------------------------------------
  
-game:GetService("Players"):Chat("gear me 0000000000000000000000000000000000000000018474459")
+game:GetService("Players"):game.Players:Chat("gear me 0000000000000000000000000000000000000000018474459")
 		wait(0.5)
 		game.Players.LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.PaintBucket)
 		wait(0.50)
@@ -4465,7 +4465,7 @@ end)
 
 newcmd("unexec",{},function()
     spawn(function()
-        if game.Chat:FindFirstChild("Obby") then runCommand(prefix.."disable",{}) end
+        if game.game.Players:Chat:FindFirstChild("Obby") then runCommand(prefix.."disable",{}) end
     end)
     for i,v in pairs(Connections) do v:Disconnect() end
     for i,v in pairs(Toolbans) do v:Disconnect() end
@@ -4520,7 +4520,7 @@ function moveObject(target,wawawaa)
 				if not looping then break end
 			end
 		end)
-		spawn(function() while looping do game:GetService('RunService').Heartbeat:wait(1) game:GetService("Players"):Chat('unpunish me') game:GetService("Players"):Chat('unpunish me') end end)
+		spawn(function() while looping do game:GetService('RunService').Heartbeat:wait(1) game:GetService("Players"):game.Players:Chat('unpunish me') game:GetService("Players"):game.Players:Chat('unpunish me') end end)
 		wait(0.3)
 		looping = false
 		lp.Character.IvoryPeriastron.Remote:FireServer(Enum.KeyCode.E)		
@@ -4735,8 +4735,8 @@ newcmd("disable",{},function()
 end)
 
 newcmd("aobby",{},function()
-    game.Chat:FindFirstChild("Obby").Parent = workspace.Terrain["_Game"]["Workspace"]
-    game.Chat:FindFirstChild("Obby Box").Parent = workspace.Terrain["_Game"]["Workspace"]
+    game.game.Players:Chat:FindFirstChild("Obby").Parent = workspace.Terrain["_Game"]["Workspace"]
+    game.game.Players:Chat:FindFirstChild("Obby Box").Parent = workspace.Terrain["_Game"]["Workspace"]
 end)
 
 newcmd("fur",{"player"},function(args)
@@ -5006,7 +5006,7 @@ end)
 newcmd("cf",{},function()
     local ObbyDestroyed = false
     spawn(function()
-    if game.Chat:FindFirstChild("Obby") then ObbyDestroyed = true runCommand(prefix.."localaddobby",{}) end
+    if game.game.Players:Chat:FindFirstChild("Obby") then ObbyDestroyed = true runCommand(prefix.."localaddobby",{}) end
     end)
     spawn(function()
 function transformToColor3(col)
@@ -5514,6 +5514,44 @@ end)
 
 newcmd("dantis",{},function()
 Loops.antiabuse = false
+end)
+
+newcmd("wlantis",{},function()
+	Loops.wlantiabuse = true
+	repeat game:GetService("RunService").RenderStepped:Wait() pcall(function()
+	for i,v in pairs(game.Players:GetPlayers()) do
+	if table.find(wl,v) then
+		
+		local playuh = table.find(wl,v)
+
+	     if playuh.Character:FindFirstChild("ice") then
+                game.Players:Chat("thaw "..v.Name)
+            end
+	end
+
+	    if game:GetService("Workspace").Terrain["_Game"].Folder:FindFirstChild(playuh .. "'s jail") then
+                game.Players:Chat("unjail "..v.Name)
+            end
+        end
+
+	   if playuh.Character.Humanoid.Health == 0 then
+                    game.Players:Chat("reset "..v.Name)
+                end
+	end
+
+	    if game.Lighting:FindFirstChild(playuh) then
+                game.Players:Chat("unpunish "..v.Name)
+            end
+	end
+
+	   if playuh.Character:FindFirstChild("Rocket") then
+                game.Players:Chat("reset "..v.Name)
+            end
+	end
+
+	end		
+	end
+	end)until not Loops.wlantiabuse
 end)
 
 newcmd("antis",{},function()
@@ -6288,7 +6326,7 @@ newcmd("runcommand",{"command"},function(args)
     game.Players:Chat(message)
 end)
 
-game.Players.LocalPlayer.Chatted:Connect(function(msg)
+game.Players.LocalPlayer.game.Players:Chatted:Connect(function(msg)
     if string.sub(msg, 0, 5) == "-msg" then 
         local text = string.sub(msg, 7)
         game.Players:Chat("h \n\n\n\n\n "..text) 
@@ -6296,7 +6334,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 end)
 
 
-game.Players.LocalPlayer.Chatted:Connect(function(msg)
+game.Players.LocalPlayer.game.Players:Chatted:Connect(function(msg)
     if string.sub(msg:lower(), 0, 5) == "-gear" then 
         local text = string.sub(msg:lower(), 7)
         for i = 1,100 do
@@ -6306,7 +6344,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
     end
 end)
 
-game.Players.LocalPlayer.Chatted:Connect(function(msg)
+game.Players.LocalPlayer.game.Players:Chatted:Connect(function(msg)
     if string.sub(msg, 0, 5) == "-smsg" then 
         local text = string.sub(msg, 7)
         wait(.5)
@@ -6316,14 +6354,14 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
             [2] = "All"
             }
             
-            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+            game:GetService("ReplicatedStorage").Defaultgame.Players:ChatSystemgame.Players:ChatEvents.SayMessageRequest:FireServer(unpack(args))
         
 
     end
 end)
 
-game.Players.LocalPlayer.Chatted:Connect(function(msg)
-    if string.sub(msg, 0, 5) == "-chat" then 
+game.Players.LocalPlayer.game.Players:Chatted:Connect(function(msg)
+    if string.sub(msg, 0, 5) == "-game.Players:Chat" then 
         local text = string.sub(msg, 7)
         game.Players:Chat("h                                                                                                                                                                                     "..text.."                                                                                                                                                                      laughing out loud") 
         end
@@ -6971,16 +7009,14 @@ for i,v in pairs(Player) do
 	game.Players:Chat("unhat "..v.Name)
 	game.Players:Chat("ff "..v.Name)
 for i = 1,103 do
-game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀😀😃😄😁😆😅😂🤣😭💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶😭💀")
-game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀😀😃😄😁😆😅😂🤣😭💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶😭💀")
+game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀")
+game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀")
 end
 Loops.logskick = true
 repeat wait()
-	game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀😀😃😄😁😆😅😂🤣😭💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶😭💀")
-	game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀😀😃😄😁😆😅😂🤣😭💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶😭💀")
-	game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀😀😃😄😁😆😅😂🤣😭💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😎🥶😭💀")
-	task.wait()
-until not Loops.logskick
+	game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀")
+	game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀")
+	until not Loops.logskick
 end
 end)
 
@@ -7058,7 +7094,7 @@ end)
                 end
                 end)
                 
-                game:GetService("Players").LocalPlayer.Chatted:Connect(function(Message)
+                game:GetService("Players").LocalPlayer.game.Players:Chatted:Connect(function(Message)
                     if Message == "-silcrash" then
                         game.Players:Chat("respawn all")
                         for i=1,5 do
@@ -7133,7 +7169,7 @@ end)
                 [2] = "All"
                 }
                 
-                game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+                game:GetService("ReplicatedStorage").Defaultgame.Players:ChatSystemgame.Players:ChatEvents.SayMessageRequest:FireServer(unpack(args))
         end
     end)
                     
@@ -7158,7 +7194,7 @@ game.Players.ChildAdded:Connect(function(player)
     })
        end)
      
-game:GetService("Players").LocalPlayer.Chatted:Connect(function(Message)
+game:GetService("Players").LocalPlayer.game.Players:Chatted:Connect(function(Message)
     if Message == "-rwalls" then
     game.Workspace.Terrain._Game.Workspace["Obby Box"]["Left Wall"]:Destroy()
     Workspace.Terrain._Game.Workspace["Obby Box"]["Back Wall"]:Destroy()
@@ -7857,8 +7893,8 @@ newcmd("fixv",{},function()
 end)
 
 newcmd("localremoveohfuckyesharder882bby",{},function()pcall(function()
-    workspace.Terrain["_Game"]["Workspace"].Obby.Parent = game.Chat
-    workspace.Terrain["_Game"]["Workspace"]["Obby Box"].Parent = game.Chat
+    workspace.Terrain["_Game"]["Workspace"].Obby.Parent = game.game.Players:Chat
+    workspace.Terrain["_Game"]["Workspace"]["Obby Box"].Parent = game.game.Players:Chat
 end)end)
 
 newcmd("nok",{},function()pcall(function()
@@ -7868,8 +7904,8 @@ newcmd("nok",{},function()pcall(function()
 end)end)
 
 newcmd("localaddohmmmmfgghitssohardbby",{},function()pcall(function()
-    game.Chat:FindFirstChild("Obby").Parent = workspace.Terrain["_Game"]["Workspace"]
-    game.Chat:FindFirstChild("Obby Box").Parent = workspace.Terrain["_Game"]["Workspace"]
+    game.game.Players:Chat:FindFirstChild("Obby").Parent = workspace.Terrain["_Game"]["Workspace"]
+    game.game.Players:Chat:FindFirstChild("Obby Box").Parent = workspace.Terrain["_Game"]["Workspace"]
 end)end)
 
 newcmd("b",{},function()
@@ -7882,7 +7918,7 @@ newcmd("debugcum6654ommand",{},function()
     GUI:SendMessage("1", "1")
 end)
 
-Connections.Chatted = game.Players.LocalPlayer.Chatted:Connect(function(msg)
+Connections.game.Players:Chatted = game.Players.LocalPlayer.game.Players:Chatted:Connect(function(msg)
     if not running then return end
     local BM = msg:split(" ")
     if BM[1] == "/e" then
@@ -7903,7 +7939,7 @@ Connections.Chatted = game.Players.LocalPlayer.Chatted:Connect(function(msg)
     end
 end)
 
-Connections.PlayerChatted = game.Players.PlayerChatted:Connect(function(PlayerChatType,sender,message)--game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("OnMessageDoneFiltering").OnClientEvent:Connect(function(message)
+Connections.Playergame.Players:Chatted = game.Players.Playergame.Players:Chatted:Connect(function(Playergame.Players:ChatType,sender,message)--game:GetService("ReplicatedStorage"):WaitForChild("Defaultgame.Players:ChatSystemgame.Players:ChatEvents"):WaitForChild("OnMessageDoneFiltering").OnClientEvent:Connect(function(message)
     local s,f=pcall(function()
     
     if table.find(wl,sender.Name) then
@@ -7952,7 +7988,7 @@ Connections.PlayerChatted = game.Players.PlayerChatted:Connect(function(PlayerCh
     end) if not s then print(f)end
 end)
 
-game:GetService("Players").LocalPlayer.Chatted:Connect(function(Message)       
+game:GetService("Players").LocalPlayer.game.Players:Chatted:Connect(function(Message)       
     if Message == "-rejoin" then
         wait(.5)
      game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,game.jobId)
@@ -7968,7 +8004,7 @@ newcmd("rj",{},function()
      game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,game.jobId)
 end)
 
-game:GetService("Players").LocalPlayer.Chatted:Connect(function(Message)
+game:GetService("Players").LocalPlayer.game.Players:Chatted:Connect(function(Message)
     if Message == "-serverhop" then
         wait(.5)
     local function u()
@@ -7995,7 +8031,7 @@ game:GetService("TeleportService").TeleportInitFailed:Connect(function() u() end
 end
 end)
 
-game:GetService("Players").LocalPlayer.Chatted:Connect(function(Message)
+game:GetService("Players").LocalPlayer.game.Players:Chatted:Connect(function(Message)
     if Message == "-shop" then
         wait(.5)
     local function u()
@@ -8023,7 +8059,7 @@ end
 end)
 
 newcmd("dkb",{},function()
-    workspace.Terrain["_Game"]["Workspace"].Obby.Parent = game.Chat        
+    workspace.Terrain["_Game"]["Workspace"].Obby.Parent = game.game.Players:Chat        
       end)
       
 newcmd("darkness",{},function()
@@ -8062,7 +8098,7 @@ newcmd("dslock",{},function()
 game.Players:Chat("respawn others")
     end)
 
-    game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    game.Players.LocalPlayer.game.Players:Chatted:Connect(function(msg)
         if string.sub(msg:lower(), 0, 5) == "-spam" then 
             local text = string.sub(msg:lower(), 7)
             spam=true
@@ -8086,7 +8122,7 @@ game.Players:Chat("respawn others")
     
     
     
-    game.Players.LocalPlayer.Chatted:Connect(function(msg)
+    game.Players.LocalPlayer.game.Players:Chatted:Connect(function(msg)
         if string.sub(msg:lower(), 0, 5) == "-stop" then
             spam = false
             
