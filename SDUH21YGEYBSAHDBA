@@ -6969,14 +6969,11 @@ for i,v in pairs(Player) do
 	task.wait(0.005)
 	game.Players:Chat("blind "..v.Name)
 	game.Players:Chat("freeze "..v.Name)
+	game.Players:Chat("music 0000000000000000000000000000000000401117743")
 	game.Players:Chat("rainbowify "..v.Name)
 	game.Players:Chat("name "..v.Name.." ["..v.DisplayName.."]\nis currently being kicked")
 	game.Players:Chat("unhat "..v.Name)
 	game.Players:Chat("ff "..v.Name)
-	game.Players:Chat("punish "..v.Name)
-	task.wait(0.005)
-	game.Players:Chat("clone "..v.Name)
-	game.Players:Chat("music 0000000000000000000000000000000000401117743")
 for i = 1,103 do
 game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀")
 game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀")
@@ -8295,3 +8292,4 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 end)
 
 game.Players:Chat("h \n\n\n\n\n\n\n\n[execution]\nsuccess")
+print("v2")
