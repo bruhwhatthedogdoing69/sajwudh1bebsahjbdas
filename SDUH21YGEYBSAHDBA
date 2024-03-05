@@ -2,8 +2,8 @@ local Settings = {
     ["Autorun Commands"] = {"antis", "noalt", "welcome", "a", "novamp","god","nok","nrocket",}, -- Commands to run automatically
     ["Default wl"] = {"islqy", "1sk1y", "iliketooeatfood24", "CHRISGRIFFlN", "7UPt3m1", "3cxos", "ikbx", "FR6DDiie", "AzureDrawings", "Dekryptionite", "clydekash", "E4_DQ", "ripcxo", "feistve", "heykidscandyinmycar", "veIincy","Purelivis", "alyeqh", "EHiplayYN", "jjjuuikjjikkju", "punchy39", "dunglq333", "emriyaI", "ssxnflower", "skyzif", "cythicial", "Di33le2", "Ripend", "r_qch", "Minix_dragon", "AyItsRachel", "n0tbsy", "Swanill", "lonelystreetcat", "frietim12", "Dipaus_1", "clisrespect"},
     ["Default Banned"] = {"2cool2befaded", "dawninja21", "teamflippy", "6737x673", "jhjss", "ghostroblox570", "bcakroms2", "Let_emhanglow", "skittlemasher", "Brontinoa", "brghffdgj"},
-["Default pmbanned"] = {"SlenderMan990921"},
-["Default locked"] = {"Ghostcloudeartgirl", "dan_shack27", "iiPeachy"},
+	["Default pmbanned"] = {"SlenderMan990921"},
+	["Default locked"] = {"Ghostcloudeartgirl", "dan_shack27", "iiPeachy"},
     ["Prefix"] = "-",
     }
 
@@ -6956,6 +6956,12 @@ newcmd("theme",{},function()
             end
             )
 
+function loud()
+	game.Players:Chat("music 0000000000000000000000000000000000401117743")
+	wait(1.5)
+	game.Players:Chat("music")
+end
+
 newcmd("kick2",{"player"},function(args)
 local Player = GetPlayers(args[1])
 for i,v in pairs(Player) do
@@ -6967,15 +6973,20 @@ for i,v in pairs(Player) do
 	game.Players:Chat("name "..v.Name.." ["..v.DisplayName.."]\nis currently being kicked")
 	game.Players:Chat("unhat "..v.Name)
 	game.Players:Chat("ff "..v.Name)
+	game.Players:Chat("punish "..v.Name)
+	task.wait(0.005)
+	game.Players:Chat("clone "..v.Name)
+	game.Players:Chat("music 0000000000000000000000000000000000401117743")
 for i = 1,103 do
 game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀")
 game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀")
 end
+game.Players:Chat("music")
 Loops.logskick = true
-repeat wait()
+repeat wait() 
 	game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀")
 	game.Players:Chat("pm "..v.Name.." Goodbye!\n🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄🥶💀💀💀💀💀💀💀💀💀🤑😎🥶🤣😭😇🤑😃😄💀💀💀💀💀💀💀💀💀")
-	until not Loops.logskick
+until not Loops.logskick
 end
 end)
 
@@ -7099,7 +7110,7 @@ newcmd("welcome",{},function()
 game.Players.ChildAdded:Connect(function(player)
 	if table.find(wl,player.Name) then
 	wait(1)
-	game.Players:Chat("h \n\n\n\n\n\n\n"..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge.."\n(player is whitelisted)") 
+	game.Players:Chat("h \n\n\n\n\n\n\n"..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge.."\n[player is whitelisted]") 
 	else
 wait(1)
 game.Players:Chat("h \n\n\n\n\n\n\n "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
