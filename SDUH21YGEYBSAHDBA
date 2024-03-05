@@ -7103,7 +7103,8 @@ game.Players.ChildAdded:Connect(function(player)
 	else
 wait(1)
 game.Players:Chat("h \n\n\n\n\n\n\n "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
-	end)
+	end
+end)
 end)
 
 newcmd("noalt",{},function()
