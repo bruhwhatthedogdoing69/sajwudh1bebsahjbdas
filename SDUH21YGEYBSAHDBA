@@ -5584,7 +5584,7 @@ newcmd("novamp",{},function()
                 end
 			end)
 		end
-		end)until not Loops.antiservercrash
+		end)until not Loops.novamp
 	end)
 
 newcmd("dnovamp",{},function()
@@ -8293,4 +8293,3 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 end)
 
 game.Players:Chat("h \n\n\n\n\n\n\n\n[execution]\nsuccess")
-print("v3")
