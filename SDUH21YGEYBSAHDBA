@@ -1,8 +1,8 @@
 local Settings = {
     ["Autorun Commands"] = {"antis", "noalt", "welcome", "a", "novamp","god","nok","nrocket",}, -- Commands to run automatically
     ["Default wl"] = {"islqy", "1sk1y", "iliketooeatfood24", "CHRISGRIFFlN", "7UPt3m1", "3cxos", "ikbx", "FR6DDiie", "AzureDrawings", "Dekryptionite", "clydekash", "E4_DQ", "ripcxo", "feistve", "heykidscandyinmycar", "veIincy","Purelivis", "alyeqh", "EHiplayYN", "jjjuuikjjikkju", "punchy39", "dunglq333", "emriyaI", "ssxnflower", "skyzif", "cythicial", "Di33le2", "Ripend", "r_qch", "Minix_dragon", "AyItsRachel", "n0tbsy", "Swanill", "lonelystreetcat", "frietim12", "Dipaus_1", "clisrespect"},
-    ["Default Banned"] = {"2cool2befaded", "dawninja21", "teamflippy", "SlenderMan990921", "6737x673", "jhjss", "ghostroblox570", "bcakroms2", "Let_emhanglow", "skittlemasher", "Brontinoa", "brghffdgj"},
-	["Default pmbanned"] = {},
+    ["Default Banned"] = {"2cool2befaded", "dawninja21", "teamflippy", "6737x673", "jhjss", "ghostroblox570", "bcakroms2", "Let_emhanglow", "skittlemasher", "Brontinoa", "brghffdgj"},
+	["Default pmbanned"] = {"SlenderMan990921"},
 	["Default locked"] = {"Ghostcloudeartgirl", "dan_shack27", "iiPeachy"},
     ["Prefix"] = "-",
     }
@@ -7099,25 +7099,10 @@ newcmd("welcome",{},function()
 game.Players.ChildAdded:Connect(function(player)
 	if table.find(wl,player.Name) then
 	wait(1)
-	game.Players:Chat("h \n\n\n\n\n\n\n Whitelisted user "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
+	game.Players:Chat("h \n\n\n\n\n\n\n"..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge.."\n(player is whitelisted)") 
 	else
 wait(1)
 game.Players:Chat("h \n\n\n\n\n\n\n "..player.Name.." has joined!\ndisplay: "..player.DisplayName.."\naccount age: "..player.AccountAge) 
-	end
-	local blowjob = checkGamepass(player,66254)
-	local boobs = checkGamepass(player,35748)
-	if blowjob or boobs == "200" then
-	game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\nPerm admin: True")
-else
-	game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\nPerm admin: False")
-end
-	local ass = checkGamepass(player,35748)
-	local tits = checkGamepass(player,37127)
-	if ass or tits == "200" then
-	game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\nPersons admin: True")
-else
-	game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\nPersons admin: False")
-end
 	end)
 end)
 
