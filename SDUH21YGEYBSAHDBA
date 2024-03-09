@@ -6890,17 +6890,6 @@ game.Players:Chat("respawn me")
 wait(.90)
 end)
 
-newcmd("theme",{},function()
-    game.Players:Chat('time 5')
-    game.Players:Chat('ambient 100 0 255')
-    game.Players:Chat('outdoorambient 100 0 255')
-    game.Players:Chat('indoorambient 100 0 255')
-    game.Players:Chat('fogstart 300')
-    game.Players:Chat('fogend 500')
-    game.Players:Chat('fogcolor 120 0 255')
-    game.Players:Chat('music 00000000000000000000000000000000002626152169')
-    end)
-
     newcmd("vgcrash",{},function()
             Loops.novamp = false
             Loops.novamp = false
@@ -7176,7 +7165,7 @@ game:GetService("Players").LocalPlayer.Chatted:Connect(function(Message)
     end
     )
 
-newcmd("theme2",{},function()
+newcmd("theme",{},function()
     game.Players:Chat('time -')
     game.Players:Chat('disco')
     game.Players:Chat('fogend 90')
