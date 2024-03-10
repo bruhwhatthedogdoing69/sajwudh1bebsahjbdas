@@ -7469,7 +7469,7 @@ newcmd("cft",{"player"},function(args)
 newcmd("sparkle",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-        for = 1,100 do
+        for i = 1,100 do
         game.Players:Chat("sparkles/"..v.Name)
         end
     end
