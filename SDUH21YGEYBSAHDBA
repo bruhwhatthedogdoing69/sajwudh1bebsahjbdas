@@ -7471,6 +7471,15 @@ newcmd("sparkle",{"player"},function(args)
     for i,v in pairs(Player) do
         for i = 1,100 do
         game.Players:Chat("sparkles/"..v.Name)
+		game.Players:Chat("sparkles/"..v.Name)
+		game.Players:Chat("sparkles/"..v.Name)
+		game.Players:Chat("sparkles/"..v.Name)
+		game.Players:Chat("sparkles/"..v.Name)
+		game.Players:Chat("sparkles/"..v.Name)
+		game.Players:Chat("sparkles/"..v.Name)
+		game.Players:Chat("sparkles/"..v.Name)
+		game.Players:Chat("sparkles/"..v.Name)
+		game.Players:Chat("sparkles/"..v.Name)
         end
     end
 end)
@@ -8290,4 +8299,4 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 	end)
 end)
 
-game.Players:Chat("h")
+game.Players:Chat("h \n\n\n\n\n\n\n\n[execution]\nsuccess")
