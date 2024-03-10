@@ -7475,7 +7475,7 @@ newcmd("sparkle",{"player"},function(args)
 		game.Players:Chat("sparkles/"..v.Name)
         end
 		for i = 1,10 do
-			for i = 1,128
+			for i = 1,128 do
 		game.Players:Chat("sparkles/"..v.Name)
 		game.Players:Chat("sparkles/"..v.Name)
 		game.Players:Chat("sparkles/"..v.Name)
