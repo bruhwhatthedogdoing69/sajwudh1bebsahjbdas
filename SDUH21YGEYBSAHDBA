@@ -7469,19 +7469,17 @@ newcmd("cft",{"player"},function(args)
 newcmd("sparkle",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-        for i = 1,128 do
-        game.Players:Chat("sparkles/"..v.Name)
-		game.Players:Chat("sparkles/"..v.Name)
-		game.Players:Chat("sparkles/"..v.Name)
-        end
-		for i = 1,10 do
-			for i = 1,128 do
-		game.Players:Chat("sparkles/"..v.Name)
-		game.Players:Chat("sparkles/"..v.Name)
-		game.Players:Chat("sparkles/"..v.Name)
-		end
-	end
+		Loops.sparkle = true
+		repeat wait()
+        game.Players:Chat("sparkles/"..v.Name.."/"..v.Name.."/"..v.Name)
+		until not Loops.sparkle
     end
+end)
+
+newcmd("dsparkle",{},function()
+Loops.sparkle = false
+Loops.sparkle = false
+Loops.sparkle = false
 end)
 
 newcmd("die",{"player"},function(args)
