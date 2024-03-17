@@ -1,8 +1,8 @@
 local Settings = {
-    ["Autorun Commands"] = {"antis", "noalt", "welcome", "a", "novamp","god","nok","nrocket",}, -- Commands to run automatically
+    ["Autorun Commands"] = {"antis", "noalt", "welcome", "a", "novamp", "nobow", "god","nok","nrocket",}, -- Commands to run automatically
     ["Default wl"] = {"islqy", "1sk1y", "iliketooeatfood24", "CHRISGRIFFlN", "7UPt3m1", "3cxos", "ikbx", "FR6DDiie", "AzureDrawings", "Dekryptionite", "clydekash", "E4_DQ", "ripcxo", "feistve", "heykidscandyinmycar", "veIincy","Purelivis", "alyeqh", "EHiplayYN", "jjjuuikjjikkju", "punchy39", "dunglq333", "emriyaI", "ssxnflower", "skyzif", "cythicial", "Di33le2", "Ripend", "r_qch", "Minix_dragon", "AyItsRachel", "n0tbsy", "Swanill", "lonelystreetcat", "frietim12", "Dipaus_1", "clisrespect"},
     ["Default Banned"] = {"2cool2befaded", "dawninja21", "teamflippy", "6737x673", "jhjss", "ghostroblox570", "bcakroms2", "Let_emhanglow", "skittlemasher", "Brontinoa", "brghffdgj"},
-	["Default pmbanned"] = {"SlenderMan990921"},
+	["Default pmbanned"] = {"SlenderMan990921", "justinbieber6662"},
 	["Default locked"] = {"Ghostcloudeartgirl", "dan_shack27", "iiPeachy"},
     ["Prefix"] = "-",
     }
@@ -179,7 +179,7 @@ end)
 
 newcmd("ban2",{"player"},function(args)
     for i,v in pairs(GetPlayers(args[1])) do
-        table.insert(Banned,v.Name)
+        table.insert(Banned2,v.Name)
         if BanSoundsEnabled then
             runCommand(prefix.."kick2",{v.Name,BanSound})
         else
@@ -5579,13 +5579,35 @@ newcmd("novamp",{},function()
                 end
 			end)
 			spawn(function()
-				if v.Backpack:FindFirstChild("VampireVanquisher") then v.Backpack:FindFirstChild("VampireVanquisher"):Destroy() game.Players:Chat("removetools "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)
+				if v.Backpack:FindFirstChild("VampireVanquisher") then v.Backpack:FindFirstChild("VampireVanquisher"):Destroy() game.Players:Chat("ungear "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)game.Players:Chat("reset "..v.Name)
 					game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Sorry "..v.Name.." but you arent allowed the vampire vanquisher due to protection")
                 end
 			end)
 		end
 		end)until not Loops.novamp
 	end)
+
+	newcmd("nobow",{},function()
+		Loops.nobow = true
+		repeat game:GetService("RunService").RenderStepped:Wait() pcall(function()
+			for i,v in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					if v and v.Character and v.Character:FindFirstChild("SeaThemedCrossbow") then v.Character:FindFirstChild("SeaThemedCrossbow"):Destroy() game.Players:Chat("ungear all")game.Players:Chat("ungear all")game.Players:Chat("ungear all")game.Players:Chat("ungear all")game.Players:Chat("ungear all")game.Players:Chat("ungear all")game.Players:Chat("ungear all")
+						game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Sorry "..v.Name.." but you arent allowed the Sea Themed Crossbow due to protection")
+					end
+				end)
+				spawn(function()
+					if v.Backpack:FindFirstChild("SeaThemedCrossbow") then v.Backpack:FindFirstChild("SeaThemedCrossbow"):Destroy()game.Players:Chat("ungear all")game.Players:Chat("ungear all")game.Players:Chat("ungear all")game.Players:Chat("ungear all")game.Players:Chat("ungear all")game.Players:Chat("ungear all")game.Players:Chat("ungear all")
+						game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Sorry "..v.Name.." but you arent allowed the Sea Themed Crossbow due to protection")
+					end
+				end)
+			end
+			end)until not Loops.nobow
+		end)
+
+		newcmd("dnobow",{},function()
+			Loops.nobow = false
+		end)
 
 newcmd("dnovamp",{},function()
     Loops.novamp = false
@@ -8297,4 +8319,4 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 	end)
 end)
 
-game.Players:Chat("h \n\n\n\n\n\n\n\n[execution]\nsuccess")
+game.Players:Chat("h abc")
