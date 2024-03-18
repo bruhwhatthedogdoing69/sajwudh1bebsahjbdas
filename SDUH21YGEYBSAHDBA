@@ -159,7 +159,8 @@ end)
 newcmd("alpaca",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
-	game.Players:Chat("ungear me")
+	game.Players:Chat("reset me")
+	wait()
 	game.Players:Chat("speed "..v.Name.." 0")
 	game.Players:Chat("setgrav "..v.Name.." 3500")
 	wait()
@@ -8367,3 +8368,4 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 end)
 
 game.Players:Chat("h abc")
+print("yuh")
