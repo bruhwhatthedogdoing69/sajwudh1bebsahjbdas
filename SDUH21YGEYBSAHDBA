@@ -171,6 +171,7 @@ newcmd("alpaca",{"player"},function(args)
 	wait(.23)
 	game.Players:Chat("-droptools")
 	wait(.5)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame *CFrame.new(0,0,5) * CFrame.Angles(0,math.rad(0),0)
 	game.Players:Chat("size me .5")
 	game.Players:Chat("gear me 0000000000000000000000000000000000292969139")
 	repeat wait() until plr.Backpack:FindFirstChild("AnAlpacaYouKnow")
@@ -8366,4 +8367,3 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 end)
 
 game.Players:Chat("h abc")
-print("fuck")
