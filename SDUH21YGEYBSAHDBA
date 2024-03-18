@@ -199,8 +199,11 @@ newcmd("alpaca",{"player"},function(args)
 	game.Players:Chat("unsize "..v.Name)
 	wait(.23)
 	game.Players:Chat("size "..v.Name.." .3")
+	game.Players:Chat("size "..v.Name.." .3")
 	game.Players:Chat("unsize me")
 	game.Players:Chat("ungear me")
+	game.Players:Chat("grav "..v.Name)
+	game.Players:Chat("speed "..v.Name.." 16")
     end
 end)
 
@@ -8368,4 +8371,3 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 end)
 
 game.Players:Chat("h abc")
-print("yuh")
