@@ -167,7 +167,7 @@ newcmd("alpaca",{"player"},function(args)
 	repeat wait() until plr.Backpack:FindFirstChild("CuddlyCat")
 	local cat = plr.Backpack:FindFirstChild("CuddlyCat")
     cat.Parent = chr
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame *CFrame.new(0,0,3) * CFrame.Angles(0,math.rad(0),0)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame *CFrame.new(0,0,6) * CFrame.Angles(0,math.rad(0),0)
 	wait(.23)
 	game.Players:Chat("-droptools")
 	wait(.5)
@@ -8361,3 +8361,4 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 end)
 
 game.Players:Chat("h abc")
+print("yup")
