@@ -180,6 +180,8 @@ newcmd("alpaca",{"player"},function(args)
     for i,v  in pairs(chr:GetChildren()) do
         if v:IsA("Tool") then
             v:Activate()
+		end
+	end
 	wait(0.3)
 	game.Players:Chat("gear me 000000000000000000000000000000000074385399")
 	repeat wait() until plr.Backpack:FindFirstChild("RemoteExplosiveDetonator")
@@ -198,8 +200,6 @@ newcmd("alpaca",{"player"},function(args)
 	game.Players:Chat("unsize me")
 	game.Players:Chat("ungear me")
     end
-end
-end
 end)
 
 newcmd("bribe",{"player"},function(args)
@@ -8366,3 +8366,4 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 end)
 
 game.Players:Chat("h abc")
+print("fuck")
