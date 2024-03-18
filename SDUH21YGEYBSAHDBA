@@ -156,6 +156,47 @@ game.Players:Chat("hat "..v.Name.." 20573098")
     end
 end)
 
+newcmd("alpaca",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+	game.Players:Chat("ungear me")
+	game.Players:Chat("speed "..v.Name.." 0")
+	game.Players:Chat("setgrav "..v.Name.." 3500")
+	wait()
+	game.Players:Chat("gear me 0000000000000000000000000000000000319656339")
+	repeat wait() until plr.Backpack:FindFirstChild("CuddlyCat")
+	local cat = plr.Backpack:FindFirstChild("CuddlyCat")
+    cat.Parent = chr
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame *CFrame.new(0,0,3) * CFrame.Angles(0,math.rad(0),0)
+	wait(.23)
+	game.Players:Chat("-droptools")
+	wait(.5)
+	game.Players:Chat("size me .5")
+	game.Players:Chat("gear me 0000000000000000000000000000000000292969139")
+	repeat wait() until plr.Backpack:FindFirstChild("AnAlpacaYouKnow")
+    local alpaca = plr.Backpack:FindFirstChild("AnAlpacaYouKnow")
+    alpaca.Parent = chr
+	wait(0.2)
+	game.Players:Chat("-usetools")
+	wait(0.3)
+	game.Players:Chat("gear me 000000000000000000000000000000000074385399")
+	repeat wait() until plr.Backpack:FindFirstChild("RemoteExplosiveDetonator")
+    local Detonator = plr.Backpack:FindFirstChild("RemoteExplosiveDetonator")
+    Detonator.Parent = chr
+    wait(0.2)
+    local A_1 = "Activate"
+    local A_2 = v.Character.HumanoidRootPart.Position
+    Detonator.RemoteEvent:FireServer(A_1, A_2)
+    wait(0.3)
+	game.Players:Chat("size "..v.Name.." 10")
+	wait(.23)
+	game.Players:Chat("unsize "..v.Name)
+	wait(.23)
+	game.Players:Chat("size "..v.Name.." .3")
+	game.Players:Chat("unsize me")
+    end
+end)
+
 newcmd("bribe",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
