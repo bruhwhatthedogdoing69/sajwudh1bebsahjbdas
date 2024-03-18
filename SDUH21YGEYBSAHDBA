@@ -207,6 +207,13 @@ newcmd("alpaca",{"player"},function(args)
     end
 end)
 
+newcmd("gearname",{"player"},function(args)
+    local Player = GetPlayers(args[1])
+    for i,v in pairs(Player) do
+		game.Players:Chat("gear "..v.Name.." 00000000000000000000000000000000000097161295")
+	end
+end)
+
 newcmd("bribe",{"player"},function(args)
     local Player = GetPlayers(args[1])
     for i,v in pairs(Player) do
