@@ -176,7 +176,7 @@ newcmd("alpaca",{"player"},function(args)
 	repeat wait() until plr.Backpack:FindFirstChild("AnAlpacaYouKnow")
     local alpaca = plr.Backpack:FindFirstChild("AnAlpacaYouKnow")
     alpaca.Parent = chr
-	wait(0.2)
+	wait(.5)
 	game.Players:Chat("-usetools")
 	wait(0.3)
 	game.Players:Chat("gear me 000000000000000000000000000000000074385399")
@@ -194,6 +194,7 @@ newcmd("alpaca",{"player"},function(args)
 	wait(.23)
 	game.Players:Chat("size "..v.Name.." .3")
 	game.Players:Chat("unsize me")
+	game.Players:Chat("ungear me")
     end
 end)
 
@@ -8361,4 +8362,4 @@ holyshidt11.TextXAlignment = Enum.TextXAlignment.Right
 end)
 
 game.Players:Chat("h abc")
-print("yup")
+print("yoh")
